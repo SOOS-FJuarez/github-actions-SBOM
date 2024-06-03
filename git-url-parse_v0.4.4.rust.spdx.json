@@ -1,0 +1,1196 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "git-url-parse_v0.4.4",
+  "documentNamespace": "https://app.soos.io/spdxdocs/soos/git_url_parse-0.4.4-360dbf8f-5d7e-41c2-a290-4fc07e86a03a",
+  "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io",
+  "creationInfo": {
+    "created": "2023-09-11T18:49:13Z",
+    "creators": [
+      "Organization: SOOS LLC ()",
+      "Person:   (support@soos.io)",
+      "Tool: SOOS SCA-31.9.15.3"
+    ],
+    "comment": "SOOS SCA scan against pkg:cargo/git-url-parse@0.4.4",
+    "licenseListVersion": "3.9"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-ADDR2LINE-0.19.0",
+      "name": "addr2line",
+      "versionInfo": "0.19.0",
+      "downloadLocation": "https://crates.io/crates/addr2line/0.19.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97"
+        }
+      ],
+      "homepage": "https://crates.io/crates/addr2line/0.19.0",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/addr2line@0.19.0"
+        }
+      ],
+      "supplier": "Person: Nick Fitzgerald",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-ADLER-1.0.2",
+      "name": "adler",
+      "versionInfo": "1.0.2",
+      "downloadLocation": "https://crates.io/crates/adler/1.0.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe"
+        }
+      ],
+      "homepage": "https://crates.io/crates/adler/1.0.2",
+      "licenseDeclared": "0BSD OR MIT OR Apache-2.0",
+      "licenseConcluded": "0BSD OR MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/adler@1.0.2"
+        }
+      ],
+      "supplier": "Person: Jonas Schievink",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-BACKTRACE-0.3.67",
+      "name": "backtrace",
+      "versionInfo": "0.3.67",
+      "downloadLocation": "https://crates.io/crates/backtrace/0.3.67",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "233d376d6d185f2a3093e58f283f60f880315b6c60075b01f36b3b85154564ca"
+        }
+      ],
+      "homepage": "https://crates.io/crates/backtrace/0.3.67",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/backtrace@0.3.67"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFG-IF-1.0.0",
+      "name": "cfg-if",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://crates.io/crates/cfg-if/1.0.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
+        }
+      ],
+      "homepage": "https://crates.io/crates/cfg-if/1.0.0",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "licenseConcluded": "MIT/Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/cfg-if@1.0.0"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-COLOR-EYRE-0.6.2",
+      "name": "color-eyre",
+      "versionInfo": "0.6.2",
+      "downloadLocation": "https://crates.io/crates/color-eyre/0.6.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5a667583cca8c4f8436db8de46ea8233c42a7d9ae424a82d338f2e4675229204"
+        }
+      ],
+      "homepage": "https://crates.io/crates/color-eyre/0.6.2",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/color-eyre@0.6.2"
+        }
+      ],
+      "supplier": "Person: Jane Losare-Lusby",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-EYRE-0.6.8",
+      "name": "eyre",
+      "versionInfo": "0.6.8",
+      "downloadLocation": "https://crates.io/crates/eyre/0.6.8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c2b6b5a29c02cdc822728b7d7b8ae1bab3e3b05d44522770ddd49722eeac7eb"
+        }
+      ],
+      "homepage": "https://crates.io/crates/eyre/0.6.8",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/eyre@0.6.8"
+        }
+      ],
+      "supplier": "Person: Jane Losare-Lusby",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-FORM-URLENCODED-1.1.0",
+      "name": "form_urlencoded",
+      "versionInfo": "1.1.0",
+      "downloadLocation": "https://crates.io/crates/form_urlencoded/1.1.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9c384f161156f5260c24a097c56119f9be8c798586aecc13afbcbe7b7e26bf8"
+        }
+      ],
+      "homepage": "https://crates.io/crates/form_urlencoded/1.1.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/form_urlencoded@1.1.0"
+        }
+      ],
+      "supplier": "Person: Simon Sapin",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-GIMLI-0.27.0",
+      "name": "gimli",
+      "versionInfo": "0.27.0",
+      "downloadLocation": "https://crates.io/crates/gimli/0.27.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dec7af912d60cdbd3677c1af9352ebae6fb8394d165568a2234df0fa00f87793"
+        }
+      ],
+      "homepage": "https://crates.io/crates/gimli/0.27.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/gimli@0.27.0"
+        }
+      ],
+      "supplier": "Person: Nick Fitzgerald",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "name": "git-url-parse",
+      "versionInfo": "0.4.4",
+      "downloadLocation": "https://crates.io/crates/git-url-parse/0.4.4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b037f7449dd4a8b711e660301ff1ff28aa00eea09698421fb2d78db51a7b7a72"
+        }
+      ],
+      "homepage": "https://crates.io/crates/git-url-parse/0.4.4",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/git-url-parse@0.4.4"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cve",
+          "referenceLocator": "CVE-2023-33290"
+        },
+		{
+          "referenceCategory": "SECURITY",
+          "referenceType": "cve",
+          "referenceLocator": "CVE-2021-38511"
+        }
+      ],
+      "supplier": "Person: T.J. Telan",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-HECK-0.4.0",
+      "name": "heck",
+      "versionInfo": "0.4.0",
+      "downloadLocation": "https://crates.io/crates/heck/0.4.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2540771e65fc8cb83cd6e8a237f70c319bd5c29f78ed1084ba5d50eeac86f7f9"
+        }
+      ],
+      "homepage": "https://crates.io/crates/heck/0.4.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/heck@0.4.0"
+        }
+      ],
+      "supplier": "Person: Saoirse Shipwreckt",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-IDNA-0.3.0",
+      "name": "idna",
+      "versionInfo": "0.3.0",
+      "downloadLocation": "https://crates.io/crates/idna/0.3.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e14ddfc70884202db2244c223200c204c2bda1bc6e0998d11b5e024d657209e6"
+        }
+      ],
+      "homepage": "https://crates.io/crates/idna/0.3.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/idna@0.3.0"
+        }
+      ],
+      "supplier": "Person: Simon Sapin",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-INDENTER-0.3.3",
+      "name": "indenter",
+      "versionInfo": "0.3.3",
+      "downloadLocation": "https://crates.io/crates/indenter/0.3.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ce23b50ad8242c51a442f3ff322d56b02f08852c77e4c0b4d3fd684abc89c683"
+        }
+      ],
+      "homepage": "https://crates.io/crates/indenter/0.3.3",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/indenter@0.3.3"
+        }
+      ],
+      "supplier": "Person: Jane Losare-Lusby",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-LIBC-0.2.147",
+      "name": "libc",
+      "versionInfo": "0.2.147",
+      "downloadLocation": "https://crates.io/crates/libc/0.2.147",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b4668fb0ea861c1df094127ac5f1da3409a82116a4ba74fca2e58ef927159bb3"
+        }
+      ],
+      "homepage": "https://crates.io/crates/libc/0.2.147",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/libc@0.2.147"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-MEMCHR-2.5.0",
+      "name": "memchr",
+      "versionInfo": "2.5.0",
+      "downloadLocation": "https://crates.io/crates/memchr/2.5.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d"
+        }
+      ],
+      "homepage": "https://crates.io/crates/memchr/2.5.0",
+      "licenseDeclared": "Unlicense/MIT",
+      "licenseConcluded": "Unlicense/MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/memchr@2.5.0"
+        }
+      ],
+      "supplier": "Person: Andrew Gallant",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-MINIZ-OXIDE-0.6.2",
+      "name": "miniz_oxide",
+      "versionInfo": "0.6.2",
+      "downloadLocation": "https://crates.io/crates/miniz_oxide/0.6.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa"
+        }
+      ],
+      "homepage": "https://crates.io/crates/miniz_oxide/0.6.2",
+      "licenseDeclared": "MIT OR Zlib OR Apache-2.0",
+      "licenseConcluded": "MIT OR Zlib OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/miniz_oxide@0.6.2"
+        }
+      ],
+      "supplier": "Organization: Frommi",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-OBJECT-0.30.3",
+      "name": "object",
+      "versionInfo": "0.30.3",
+      "downloadLocation": "https://crates.io/crates/object/0.30.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ea86265d3d3dcb6a27fc51bd29a4bf387fae9d2986b823079d4986af253eb439"
+        }
+      ],
+      "homepage": "https://crates.io/crates/object/0.30.3",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/object@0.30.3"
+        }
+      ],
+      "supplier": "Person: Nick Fitzgerald",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-ONCE-CELL-1.18.0",
+      "name": "once_cell",
+      "versionInfo": "1.18.0",
+      "downloadLocation": "https://crates.io/crates/once_cell/1.18.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dd8b5dd2ae5ed71462c540258bedcb51965123ad7e7ccf4b9a8cafaa4a63576d"
+        }
+      ],
+      "homepage": "https://crates.io/crates/once_cell/1.18.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/once_cell@1.18.0"
+        }
+      ],
+      "supplier": "Person: Alex Kladov",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-OWO-COLORS-3.6.0",
+      "name": "owo-colors",
+      "versionInfo": "3.6.0",
+      "downloadLocation": "https://crates.io/crates/owo-colors/3.6.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "69dc4ec9e7e12502579e09e8a53c6a305b3aceb62ad5c307a62f7c3eada78324"
+        }
+      ],
+      "homepage": "https://crates.io/crates/owo-colors/3.6.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/owo-colors@3.6.0"
+        }
+      ],
+      "supplier": "Organization: jam1garner",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PERCENT-ENCODING-2.2.0",
+      "name": "percent-encoding",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "https://crates.io/crates/percent-encoding/2.2.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e"
+        }
+      ],
+      "homepage": "https://crates.io/crates/percent-encoding/2.2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/percent-encoding@2.2.0"
+        }
+      ],
+      "supplier": "Person: Simon Sapin",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PIN-PROJECT-LITE-0.2.12",
+      "name": "pin-project-lite",
+      "versionInfo": "0.2.12",
+      "downloadLocation": "https://crates.io/crates/pin-project-lite/0.2.12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12cc1b0bf1727a77a54b6654e7b5f1af8604923edc8b81885f8ec92f9e3f0a05"
+        }
+      ],
+      "homepage": "https://crates.io/crates/pin-project-lite/0.2.12",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/pin-project-lite@0.2.12"
+        }
+      ],
+      "supplier": "Person: Taiki Endo",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PROC-MACRO2-1.0.66",
+      "name": "proc-macro2",
+      "versionInfo": "1.0.66",
+      "downloadLocation": "https://crates.io/crates/proc-macro2/1.0.66",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "18fb31db3f9bddb2ea821cde30a9f70117e3f119938b5ee630b7403aa6e2ead9"
+        }
+      ],
+      "homepage": "https://crates.io/crates/proc-macro2/1.0.66",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/proc-macro2@1.0.66"
+        }
+      ],
+      "supplier": "Person: David Tolnay",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-QUOTE-1.0.32",
+      "name": "quote",
+      "versionInfo": "1.0.32",
+      "downloadLocation": "https://crates.io/crates/quote/1.0.32",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "50f3b39ccfb720540debaa0164757101c08ecb8d326b15358ce76a62c7e85965"
+        }
+      ],
+      "homepage": "https://crates.io/crates/quote/1.0.32",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/quote@1.0.32"
+        }
+      ],
+      "supplier": "Person: David Tolnay",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-REGEX-1.9.3",
+      "name": "regex",
+      "versionInfo": "1.9.3",
+      "downloadLocation": "https://crates.io/crates/regex/1.9.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81bc1d4caf89fac26a70747fe603c130093b53c773888797a6329091246d651a"
+        }
+      ],
+      "homepage": "https://crates.io/crates/regex/1.9.3",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/regex@1.9.3"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-REGEX-AUTOMATA-0.3.6",
+      "name": "regex-automata",
+      "versionInfo": "0.3.6",
+      "downloadLocation": "https://crates.io/crates/regex-automata/0.3.6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fed1ceff11a1dddaee50c9dc8e4938bd106e9d89ae372f192311e7da498e3b69"
+        }
+      ],
+      "homepage": "https://crates.io/crates/regex-automata/0.3.6",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/regex-automata@0.3.6"
+        }
+      ],
+      "supplier": "Person: Andrew Gallant",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-REGEX-SYNTAX-0.7.3",
+      "name": "regex-syntax",
+      "versionInfo": "0.7.3",
+      "downloadLocation": "https://crates.io/crates/regex-syntax/0.7.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ab07dc67230e4a4718e70fd5c20055a4334b121f1f9db8fe63ef39ce9b8c846"
+        }
+      ],
+      "homepage": "https://crates.io/crates/regex-syntax/0.7.3",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/regex-syntax@0.7.3"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUSTC-DEMANGLE-0.1.21",
+      "name": "rustc-demangle",
+      "versionInfo": "0.1.21",
+      "downloadLocation": "https://crates.io/crates/rustc-demangle/0.1.21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342"
+        }
+      ],
+      "homepage": "https://crates.io/crates/rustc-demangle/0.1.21",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "licenseConcluded": "MIT/Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/rustc-demangle@0.1.21"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUSTVERSION-1.0.9",
+      "name": "rustversion",
+      "versionInfo": "1.0.9",
+      "downloadLocation": "https://crates.io/crates/rustversion/1.0.9",
+      "homepage": "https://crates.io/crates/rustversion/1.0.9",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/rustversion@1.0.9"
+        }
+      ],
+      "supplier": "Organization: dtolnay",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-STRUM-0.24.1",
+      "name": "strum",
+      "versionInfo": "0.24.1",
+      "downloadLocation": "https://crates.io/crates/strum/0.24.1",
+      "homepage": "https://crates.io/crates/strum/0.24.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/strum@0.24.1"
+        }
+      ],
+      "supplier": "Organization: Peternator7",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-STRUM-MACROS-0.24.3",
+      "name": "strum_macros",
+      "versionInfo": "0.24.3",
+      "downloadLocation": "https://crates.io/crates/strum_macros/0.24.3",
+      "homepage": "https://crates.io/crates/strum_macros/0.24.3",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/strum_macros@0.24.3"
+        }
+      ],
+      "supplier": "Organization: Peternator7",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-SYN-1.0.109",
+      "name": "syn",
+      "versionInfo": "1.0.109",
+      "downloadLocation": "https://crates.io/crates/syn/1.0.109",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237"
+        }
+      ],
+      "homepage": "https://crates.io/crates/syn/1.0.109",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/syn@1.0.109"
+        }
+      ],
+      "supplier": "Person: David Tolnay",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-TINYVEC-1.6.0",
+      "name": "tinyvec",
+      "versionInfo": "1.6.0",
+      "downloadLocation": "https://crates.io/crates/tinyvec/1.6.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "87cc5ceb3875bb20c2890005a4e226a4651264a5c75edb2421b52861a0a0cb50"
+        }
+      ],
+      "homepage": "https://crates.io/crates/tinyvec/1.6.0",
+      "licenseDeclared": "Zlib OR Apache-2.0 OR MIT",
+      "licenseConcluded": "Zlib OR Apache-2.0 OR MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/tinyvec@1.6.0"
+        }
+      ],
+      "supplier": "Person: Lokathor",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-TRACING-0.1.37",
+      "name": "tracing",
+      "versionInfo": "0.1.37",
+      "downloadLocation": "https://crates.io/crates/tracing/0.1.37",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8"
+        }
+      ],
+      "homepage": "https://crates.io/crates/tracing/0.1.37",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/tracing@0.1.37"
+        }
+      ],
+      "supplier": "Person: Carl Lerche",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-TRACING-CORE-0.1.30",
+      "name": "tracing-core",
+      "versionInfo": "0.1.30",
+      "downloadLocation": "https://crates.io/crates/tracing-core/0.1.30",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a"
+        }
+      ],
+      "homepage": "https://crates.io/crates/tracing-core/0.1.30",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/tracing-core@0.1.30"
+        }
+      ],
+      "supplier": "Person: Eliza Weisman",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-UNICODE-BIDI-0.3.8",
+      "name": "unicode-bidi",
+      "versionInfo": "0.3.8",
+      "downloadLocation": "https://crates.io/crates/unicode-bidi/0.3.8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "099b7128301d285f79ddd55b9a83d5e6b9e97c92e0ea0daebee7263e932de992"
+        }
+      ],
+      "homepage": "https://crates.io/crates/unicode-bidi/0.3.8",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-bidi@0.3.8"
+        }
+      ],
+      "supplier": "Person: Simon Sapin",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-UNICODE-IDENT-1.0.11",
+      "name": "unicode-ident",
+      "versionInfo": "1.0.11",
+      "downloadLocation": "https://crates.io/crates/unicode-ident/1.0.11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "301abaae475aa91687eb82514b328ab47a211a533026cb25fc3e519b86adfc3c"
+        }
+      ],
+      "homepage": "https://crates.io/crates/unicode-ident/1.0.11",
+      "licenseDeclared": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+      "licenseConcluded": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-ident@1.0.11"
+        }
+      ],
+      "supplier": "Person: David Tolnay",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-UNICODE-NORMALIZATION-0.1.22",
+      "name": "unicode-normalization",
+      "versionInfo": "0.1.22",
+      "downloadLocation": "https://crates.io/crates/unicode-normalization/0.1.22",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5c5713f0fc4b5db668a2ac63cdb7bb4469d8c9fed047b1d0292cc7b0ce2ba921"
+        }
+      ],
+      "homepage": "https://crates.io/crates/unicode-normalization/0.1.22",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "licenseConcluded": "MIT/Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-normalization@0.1.22"
+        }
+      ],
+      "supplier": "Person: Alex Crichton",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-URL-2.3.1",
+      "name": "url",
+      "versionInfo": "2.3.1",
+      "downloadLocation": "https://crates.io/crates/url/2.3.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0d68c799ae75762b8c3fe375feb6600ef5602c883c5d21eb51c09f22b83c4643"
+        }
+      ],
+      "homepage": "https://crates.io/crates/url/2.3.1",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/url@2.3.1"
+        }
+      ],
+      "supplier": "Person: Simon Sapin",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-ADDR2LINE-0.19.0",
+      "relatedSpdxElement": "SPDXRef-GIMLI-0.27.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-BACKTRACE-0.3.67",
+      "relatedSpdxElement": "SPDXRef-ADDR2LINE-0.19.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-BACKTRACE-0.3.67",
+      "relatedSpdxElement": "SPDXRef-CFG-IF-1.0.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-BACKTRACE-0.3.67",
+      "relatedSpdxElement": "SPDXRef-LIBC-0.2.147",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-BACKTRACE-0.3.67",
+      "relatedSpdxElement": "SPDXRef-MINIZ-OXIDE-0.6.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-BACKTRACE-0.3.67",
+      "relatedSpdxElement": "SPDXRef-OBJECT-0.30.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-BACKTRACE-0.3.67",
+      "relatedSpdxElement": "SPDXRef-RUSTC-DEMANGLE-0.1.21",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-COLOR-EYRE-0.6.2",
+      "relatedSpdxElement": "SPDXRef-BACKTRACE-0.3.67",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-COLOR-EYRE-0.6.2",
+      "relatedSpdxElement": "SPDXRef-EYRE-0.6.8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-COLOR-EYRE-0.6.2",
+      "relatedSpdxElement": "SPDXRef-INDENTER-0.3.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-COLOR-EYRE-0.6.2",
+      "relatedSpdxElement": "SPDXRef-ONCE-CELL-1.18.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-COLOR-EYRE-0.6.2",
+      "relatedSpdxElement": "SPDXRef-OWO-COLORS-3.6.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-EYRE-0.6.8",
+      "relatedSpdxElement": "SPDXRef-INDENTER-0.3.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-EYRE-0.6.8",
+      "relatedSpdxElement": "SPDXRef-ONCE-CELL-1.18.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-FORM-URLENCODED-1.1.0",
+      "relatedSpdxElement": "SPDXRef-PERCENT-ENCODING-2.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relatedSpdxElement": "SPDXRef-COLOR-EYRE-0.6.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relatedSpdxElement": "SPDXRef-REGEX-1.9.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relatedSpdxElement": "SPDXRef-STRUM-MACROS-0.24.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relatedSpdxElement": "SPDXRef-STRUM-0.24.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relatedSpdxElement": "SPDXRef-TRACING-0.1.37",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-GIT-URL-PARSE-0.4.4",
+      "relatedSpdxElement": "SPDXRef-URL-2.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-IDNA-0.3.0",
+      "relatedSpdxElement": "SPDXRef-UNICODE-BIDI-0.3.8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-IDNA-0.3.0",
+      "relatedSpdxElement": "SPDXRef-UNICODE-NORMALIZATION-0.1.22",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-MINIZ-OXIDE-0.6.2",
+      "relatedSpdxElement": "SPDXRef-ADLER-1.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-OBJECT-0.30.3",
+      "relatedSpdxElement": "SPDXRef-MEMCHR-2.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PROC-MACRO2-1.0.66",
+      "relatedSpdxElement": "SPDXRef-UNICODE-IDENT-1.0.11",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-QUOTE-1.0.32",
+      "relatedSpdxElement": "SPDXRef-PROC-MACRO2-1.0.66",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-REGEX-1.9.3",
+      "relatedSpdxElement": "SPDXRef-REGEX-AUTOMATA-0.3.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-REGEX-1.9.3",
+      "relatedSpdxElement": "SPDXRef-REGEX-SYNTAX-0.7.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-STRUM-MACROS-0.24.3",
+      "relatedSpdxElement": "SPDXRef-HECK-0.4.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-STRUM-MACROS-0.24.3",
+      "relatedSpdxElement": "SPDXRef-PROC-MACRO2-1.0.66",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-STRUM-MACROS-0.24.3",
+      "relatedSpdxElement": "SPDXRef-QUOTE-1.0.32",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-STRUM-MACROS-0.24.3",
+      "relatedSpdxElement": "SPDXRef-RUSTVERSION-1.0.9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-STRUM-MACROS-0.24.3",
+      "relatedSpdxElement": "SPDXRef-SYN-1.0.109",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-SYN-1.0.109",
+      "relatedSpdxElement": "SPDXRef-PROC-MACRO2-1.0.66",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-SYN-1.0.109",
+      "relatedSpdxElement": "SPDXRef-UNICODE-IDENT-1.0.11",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-TRACING-0.1.37",
+      "relatedSpdxElement": "SPDXRef-CFG-IF-1.0.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-TRACING-0.1.37",
+      "relatedSpdxElement": "SPDXRef-PIN-PROJECT-LITE-0.2.12",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-TRACING-0.1.37",
+      "relatedSpdxElement": "SPDXRef-TRACING-CORE-0.1.30",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-UNICODE-NORMALIZATION-0.1.22",
+      "relatedSpdxElement": "SPDXRef-TINYVEC-1.6.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-URL-2.3.1",
+      "relatedSpdxElement": "SPDXRef-FORM-URLENCODED-1.1.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-URL-2.3.1",
+      "relatedSpdxElement": "SPDXRef-IDNA-0.3.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-URL-2.3.1",
+      "relatedSpdxElement": "SPDXRef-PERCENT-ENCODING-2.2.0",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
