@@ -7,10 +7,11 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Run SOOS SBOM Analysis
-        uses: soos-io/soos-sbom-github-action@v1 # GET Latest Version from https://github.com/marketplace/actions/soos-sbom
+        uses: soos-io/soos-sbom-github-action@84ea5f6b27c2fa5ca3a123f294f15fb985784793 #v1 GET Latest Version from https://github.com/marketplace/actions/soos-sbom
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GitHubActions-SBOM"
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "cyclonedx/alpine-baselayout.cdx.json"
+          image_tag: invalid
