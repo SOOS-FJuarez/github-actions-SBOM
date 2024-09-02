@@ -14,5 +14,5 @@ jobs:
           project_name: "GitHubActions-SBOM"
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "cyclonedx/alpine-baselayout.cdx.json"
-          sbom_version: 1.0.0-pre.1
+          sbom_version: 0.1.15
           log_level: DEBUG
