@@ -5,6 +5,9 @@ jobs:
     name: SOOS SBOM Analysis Example
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - uses: actions/checkout@master
       - name: Run SOOS SBOM Analysis
         uses: soos-io/soos-sbom-github-action@v1.0.0 #v1 GET Latest Version from https://github.com/marketplace/actions/soos-sbom
