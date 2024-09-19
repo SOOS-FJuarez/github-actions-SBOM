@@ -1,16 +1,16 @@
+name: SOOS SBOM GitHub Actions 01
 on: [push]
-
 jobs:
-  soos_sbom_analysis_example:
-    name: SOOS SBOM Analysis Example
+  soos_sbom_scan:
+    name: SOOS SBOM Scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - uses: actions/checkout@master
-      - name: Run SOOS SBOM Analysis
-        uses: soos-io/soos-sbom-github-action@v1 #v1 GET Latest Version from https://github.com/marketplace/actions/soos-sbom
+      - name: Run SOOS SBOM Scan
+        uses: soos-io/soos-sbom-github-action@v1
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
