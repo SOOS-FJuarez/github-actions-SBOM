@@ -1,0 +1,94 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "wolfssl",
+  "documentNamespace": "https://app.soos.io:443/spdxdocs/soos/wolfssl-5.7.0-35d9b247-b16f-49e9-80bf-9f839e0b1e21",
+  "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io",
+  "creationInfo": {
+    "created": "2024-09-20T14:22:50Z",
+    "creators": [
+      "Organization: SOOS LLC ()",
+      "Person:   (support@soos.io)",
+      "Tool: SOOS SCA-33.10.4.2"
+    ],
+    "comment": "SOOS SCA scan against pkg:conan/wolfssl@5.7.0",
+    "licenseListVersion": "3.9"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-CFAMILY-LIBTOOL-2.4.7",
+      "name": "libtool",
+      "versionInfo": "2.4.7",
+      "downloadLocation": "https://conan.io/center/recipes/libtool?version=2.4.7",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "08316dad5c72c541ed21e039e4cf217b"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libtool?version=2.4.7",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libtool@2.4.7"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-WOLFSSL-5.7.0",
+      "name": "wolfssl",
+      "versionInfo": "5.7.0",
+      "downloadLocation": "https://conan.io/center/recipes/wolfssl?version=5.7.0",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4a85c321bc3f0f7c76f81e88c146ccc7"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/wolfssl?version=5.7.0",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/wolfssl@5.7.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2024-5814"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2024-5991"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-WOLFSSL-5.7.0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-WOLFSSL-5.7.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-LIBTOOL-2.4.7",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

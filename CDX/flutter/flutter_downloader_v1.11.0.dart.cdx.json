@@ -1,0 +1,141 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7449abf2-7150-4d09-aff2-d46ee036c808",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-20T14:23:06Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "SOOS SCA",
+          "version": "33.10.4.2",
+          "externalReferences": [
+            {
+              "url": "https://soos.io/",
+              "type": "website"
+            },
+            {
+              "url": "https://soos.io/terms-of-service",
+              "type": "license",
+              "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "email": "support@soos.io"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "author": "  (support@soos.io)",
+      "publisher": "SOOS",
+      "name": "flutter_downloader",
+      "version": "1.11.0",
+      "description": "SOOS SCA scan against pkg:pub/flutter_downloader@1.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2878bc787ffef08c0477b68c78342ea284d96e3e8aa752a4e0c0c027266e82d9"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/flutter_downloader@1.11.0",
+      "supplier": {
+        "name": "fluttercommunity",
+        "url": [
+          "https://github.com/fluttercommunity/flutter_downloader"
+        ],
+        "contact": []
+      },
+      "name": "flutter_downloader",
+      "version": "1.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b69b40c064d2f786ea799322a235262606f399f2bd870ad5291a5e82e512c9b1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://pub.dev/packages/flutter_downloader/license"
+          }
+        }
+      ],
+      "purl": "pkg:pub/flutter_downloader@1.11.0",
+      "externalReferences": [
+        {
+          "url": "https://pub.dev/packages/flutter_downloader/versions/1.11.0",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:pub/flutter_downloader@1.11.0",
+      "dependsOn": []
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "pkg:pub/flutter_downloader@1.11.0"
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2023-41387",
+      "source": {
+        "name": "NVD",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2023-41387"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://www.cve.org/"
+          },
+          "score": 9.1,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        89
+      ],
+      "description": "A SQL injection in the flutter_downloader component through 1.11.1 for iOS allows remote attackers to steal session tokens and overwrite arbitrary files inside the app\u0027s container. The internal database of the framework is exposed to the local user if an app uses UIFileSharingEnabled and LSSupportsOpeningDocumentsInPlace properties. As a result, local users can obtain the same attack primitives as remote attackers by tampering with the internal database of the framework on the device.",
+      "published": "2023-09-19T09:15:07Z",
+      "updated": "2023-09-22T14:41:50Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This issue is new, and has not been reviewed yet."
+      },
+      "affects": [
+        {
+          "ref": "pkg:pub/flutter_downloader@1.11.0"
+        }
+      ]
+    }
+  ]
+}

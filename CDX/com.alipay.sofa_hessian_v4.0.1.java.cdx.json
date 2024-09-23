@@ -1,0 +1,154 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:897eaca3-a7d0-46b3-b450-385fc10a5cdc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-09-20T15:42:31Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "SOOS SCA",
+          "version": "33.10.4.2",
+          "externalReferences": [
+            {
+              "url": "https://soos.io/",
+              "type": "website"
+            },
+            {
+              "url": "https://soos.io/terms-of-service",
+              "type": "license",
+              "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "email": "support@soos.io"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "author": "  (support@soos.io)",
+      "publisher": "SOOS",
+      "name": "com.alipay.sofa/hessian",
+      "version": "4.0.1",
+      "description": "SOOS SCA scan against pkg:maven/com.alipay.sofa/hessian@4.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f29f76acb2d2f56fa53ec0648eb7ff7f91c10f4400d7af1a89b3517ce9772827"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.alipay.sofa/hessian@4.0.1",
+      "supplier": {
+        "name": "sofastack",
+        "url": [
+          "http://github.com/alipay/sofa-hessian"
+        ],
+        "contact": [
+          {
+            "name": "Jie Cao",
+            "email": "caojie.cj@antfin.com"
+          },
+          {
+            "name": "Geng Zhang",
+            "email": "zhanggeng.zg@antfin.com"
+          },
+          {
+            "name": "ZhiYuan Lei",
+            "email": "zhiyuan.lzy@antfin.com"
+          }
+        ]
+      },
+      "name": "com.alipay.sofa/hessian",
+      "version": "4.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f99bd221b2aa0dc4f026937f81d34a71c4bbb36b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.alipay.sofa/hessian@4.0.1",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/com.alipay.sofa/hessian/4.0.1",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.alipay.sofa/hessian@4.0.1",
+      "dependsOn": []
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "pkg:maven/com.alipay.sofa/hessian@4.0.1"
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2019-9212",
+      "source": {
+        "name": "NVD",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2019-9212"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://www.cve.org/"
+          },
+          "score": 9.8,
+          "severity": "critical",
+          "method": "CVSSv3",
+          "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes": [
+        184,
+        502
+      ],
+      "description": "SOFA-Hessian through 4.0.2 allows remote attackers to execute arbitrary commands via a crafted serialized Hessian object because blacklisting of com.caucho.naming.QName and com.sun.org.apache.xpath.internal.objects.XString is mishandled, related to Resin Gadget. NOTE: The vendor doesn\u2019t consider this issue a vulnerability because the blacklist is being misused. SOFA Hessian supports custom blacklist and a disclaimer was posted encouraging users to update the blacklist or to use the whitelist feature for their specific needs since the blacklist is not being actively updated This vulnerability was identified as exploitable by first.org with an EPSS of 0.634%.",
+      "published": "2019-02-27T17:29:00Z",
+      "updated": "2024-08-04T22:15:35Z",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "This issue is new, and has not been reviewed yet."
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.alipay.sofa/hessian@4.0.1"
+        }
+      ]
+    }
+  ]
+}

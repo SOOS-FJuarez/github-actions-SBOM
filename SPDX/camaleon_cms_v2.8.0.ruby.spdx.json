@@ -1,0 +1,3455 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "camaleon_cms",
+  "documentNamespace": "https://app.soos.io:443/spdxdocs/soos/camaleon_cms-2.8.0-5f868029-87e8-4fcd-9afc-2f924dbec4ba",
+  "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io",
+  "creationInfo": {
+    "created": "2024-09-20T15:45:11Z",
+    "creators": [
+      "Organization: SOOS LLC ()",
+      "Person:   (support@soos.io)",
+      "Tool: SOOS SCA-33.10.4.2"
+    ],
+    "comment": "SOOS SCA scan against pkg:gem/camaleon_cms@2.8.0",
+    "licenseListVersion": "3.9"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "name": "actioncable",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/actioncable/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b409c96b0acc90abe6aa8fd9656eaff0980c1b36c9e22b8f7c490a46eafc2204"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/actioncable/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/actioncable@7.2.1"
+        }
+      ],
+      "supplier": "Person: Pratik Naik",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "name": "actionmailbox",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/actionmailbox/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "09c20d0bcb769a6521d22cb8987e2d1d8335b58610957a6c615c85e6743adf89"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/actionmailbox/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/actionmailbox@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "name": "actionmailer",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/actionmailer/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4853a32c84105066e64d900ee1025ef075893ee3c51de3a3bc59a6e09586e56"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/actionmailer/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/actionmailer@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "name": "actionpack",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/actionpack/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "260b80acc720123f23eb2b106b04d2de7d8cf0492d4eeb2dfa7afc8be36dcaad"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/actionpack/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/actionpack@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "name": "actiontext",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/actiontext/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1257a2384373188039fc35d46946e757014710361a4af4481e37b510ac7d7d79"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/actiontext/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/actiontext@7.2.1"
+        }
+      ],
+      "supplier": "Person: Javan Makhmali",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "name": "actionview",
+      "versionInfo": "7.1.3",
+      "downloadLocation": "https://rubygems.org/gems/actionview/versions/7.1.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5b6b37261da58b10a53a68a547412525460ca68d8336ce1320107cda26a7b0d1"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/actionview/versions/7.1.3",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/actionview@7.1.3"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "name": "activejob",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/activejob/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb145f5aaf8276f37b9e4e9f72f3d56b1733172b4be680e836c765f2e6a3c503"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/activejob/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/activejob@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIVEMODEL-7.2.1",
+      "name": "activemodel",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/activemodel/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7b24e3927122b99c4623f07607a1d0f1cfd598f9dc5077e70178536dd6663348"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/activemodel/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/activemodel@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIVEMODEL-SERIALIZERS-XML-1.0.2",
+      "name": "activemodel-serializers-xml",
+      "versionInfo": "1.0.2",
+      "downloadLocation": "https://rubygems.org/gems/activemodel-serializers-xml/versions/1.0.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "228f2e36e89047634e78acc2707425a8605b009a6d6254238cb43fd87bc665de"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/activemodel-serializers-xml/versions/1.0.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/activemodel-serializers-xml@1.0.2"
+        }
+      ],
+      "supplier": "Person: Rails team",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "name": "activerecord",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/activerecord/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b58a26b9337594f2639cafcc443f4d28d786289f5b5b07b810e8251eeace533c"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/activerecord/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/activerecord@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "name": "activestorage",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/activestorage/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e5d6746aa9e5d92fff9d214fad782b6a7189bc080d319c0b196e3dfa1595a676"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/activestorage/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/activestorage@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "name": "activesupport",
+      "versionInfo": "7.2.0.rc1",
+      "downloadLocation": "https://rubygems.org/gems/activesupport/versions/7.2.0.rc1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5a5b56bcf990d2f6f31319a80444d58ad31a223c659425cee60d0068f55afa64"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/activesupport/versions/7.2.0.rc1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/activesupport@7.2.0.rc1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ADDRESSABLE-2.8.7",
+      "name": "addressable",
+      "versionInfo": "2.8.7",
+      "downloadLocation": "https://rubygems.org/gems/addressable/versions/2.8.7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "462986537cf3735ab5f3c0f557f14155d778f4b43ea4f485a9deb9c8f7c58232"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/addressable/versions/2.8.7",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/addressable@2.8.7"
+        }
+      ],
+      "supplier": "Person: Bob Aman",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-AWS-EVENTSTREAM-1.3.0",
+      "name": "aws-eventstream",
+      "versionInfo": "1.3.0",
+      "downloadLocation": "https://rubygems.org/gems/aws-eventstream/versions/1.3.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1434cc03ab2248756eb02cfa45e900e59a061d7fbdc4a9fd82a5dd23d796d3f"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/aws-eventstream/versions/1.3.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/aws-eventstream@1.3.0"
+        }
+      ],
+      "supplier": "Person: Amazon Web Services",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-AWS-PARTITIONS-1.940.0",
+      "name": "aws-partitions",
+      "versionInfo": "1.940.0",
+      "downloadLocation": "https://rubygems.org/gems/aws-partitions/versions/1.940.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ee8561e842a40755ed485970a0c7c1598f48a4b2516593cec45f72e2408c8f14"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/aws-partitions/versions/1.940.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/aws-partitions@1.940.0"
+        }
+      ],
+      "supplier": "Person: Amazon Web Services",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "name": "aws-sdk-core",
+      "versionInfo": "3.197.0",
+      "downloadLocation": "https://rubygems.org/gems/aws-sdk-core/versions/3.197.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "34c44883d3cc91ada382f6ecab981a1b7ede9a1ec47cf8eb2eaa3ee46035db90"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/aws-sdk-core/versions/3.197.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/aws-sdk-core@3.197.0"
+        }
+      ],
+      "supplier": "Person: Amazon Web Services",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-AWS-SDK-KMS-1.83.0",
+      "name": "aws-sdk-kms",
+      "versionInfo": "1.83.0",
+      "downloadLocation": "https://rubygems.org/gems/aws-sdk-kms/versions/1.83.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1c9c875a52bd36e62828aae454c3f42b77a61b118d8414ee66dbbe0c69ec16bf"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/aws-sdk-kms/versions/1.83.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/aws-sdk-kms@1.83.0"
+        }
+      ],
+      "supplier": "Person: Amazon Web Services",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-AWS-SDK-S3-1.163.0",
+      "name": "aws-sdk-s3",
+      "versionInfo": "1.163.0",
+      "downloadLocation": "https://rubygems.org/gems/aws-sdk-s3/versions/1.163.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d46a3d67c69a73748a2e21a7d4ae7d2a6995920ae28c4ecf8b09c6829dbbcb1e"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/aws-sdk-s3/versions/1.163.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/aws-sdk-s3@1.163.0"
+        }
+      ],
+      "supplier": "Person: Amazon Web Services",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-AWS-SIGV4-1.8.0",
+      "name": "aws-sigv4",
+      "versionInfo": "1.8.0",
+      "downloadLocation": "https://rubygems.org/gems/aws-sigv4/versions/1.8.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "84dd99768b91b93b63d1d8e53ee837cfd06ab402812772a7899a78f9f9117cbc"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/aws-sigv4/versions/1.8.0",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/aws-sigv4@1.8.0"
+        }
+      ],
+      "supplier": "Person: Amazon Web Services",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-BASE64-0.2.0",
+      "name": "base64",
+      "versionInfo": "0.2.0",
+      "downloadLocation": "https://rubygems.org/gems/base64/versions/0.2.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f25e9b21a02a0cc0cea8ef92b2041035d39350946e8789c562b2d1a3da01507"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/base64/versions/0.2.0",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/base64@0.2.0"
+        }
+      ],
+      "supplier": "Person: Yusuke Endoh",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-BCRYPT-3.1.20",
+      "name": "bcrypt",
+      "versionInfo": "3.1.20",
+      "downloadLocation": "https://rubygems.org/gems/bcrypt/versions/3.1.20",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8236dff31f6f36cffe334939e4ea59c41e1c94e2e246c01783575fa6df40373f"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/bcrypt/versions/3.1.20",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/bcrypt@3.1.20"
+        }
+      ],
+      "supplier": "Person: Coda Hale",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-BIGDECIMAL-3.1.8",
+      "name": "bigdecimal",
+      "versionInfo": "3.1.8",
+      "downloadLocation": "https://rubygems.org/gems/bigdecimal/versions/3.1.8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b9e94c14623fff8575f17a10320852219bbba92ecff4977571503d942687326e"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/bigdecimal/versions/3.1.8",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/bigdecimal@3.1.8"
+        }
+      ],
+      "supplier": "Person: Kenta Murata",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-BREADCRUMBS-ON-RAILS-4.1.0",
+      "name": "breadcrumbs_on_rails",
+      "versionInfo": "4.1.0",
+      "downloadLocation": "https://rubygems.org/gems/breadcrumbs_on_rails/versions/4.1.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6146ecf669f6251507231028719d51d92b8f42f1f982b83a2481fa1465cb6cee"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/breadcrumbs_on_rails/versions/4.1.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/breadcrumbs_on_rails@4.1.0"
+        }
+      ],
+      "supplier": "Person: Simone Carletti",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-BUILDER-3.3.0",
+      "name": "builder",
+      "versionInfo": "3.3.0",
+      "downloadLocation": "https://rubygems.org/gems/builder/versions/3.3.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "497918d2f9dca528fdca4b88d84e4ef4387256d984b8154e9d5d3fe5a9c8835f"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/builder/versions/3.3.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/builder@3.3.0"
+        }
+      ],
+      "supplier": "Person: Jim Weirich",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-BUNDLER-2.5.17",
+      "name": "bundler",
+      "versionInfo": "2.5.17",
+      "downloadLocation": "https://rubygems.org/gems/bundler/versions/2.5.17",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c4ef7050367e22f28e7928eb95ba055d111c2c4cd398de2ba8f6ab1532e46d3a"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/bundler/versions/2.5.17",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/bundler@2.5.17"
+        }
+      ],
+      "supplier": "Person: André Arko",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CAMA-CONTACT-FORM-0.1.0",
+      "name": "cama_contact_form",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "https://rubygems.org/gems/cama_contact_form/versions/0.1.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "99b116d2ca754c2756d35a9446275c34ad4e63038122f7f8639a6091d7875441"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/cama_contact_form/versions/0.1.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/cama_contact_form@0.1.0"
+        }
+      ],
+      "supplier": "Person: Owen Peredo",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CAMA-META-TAG-1.7.2",
+      "name": "cama_meta_tag",
+      "versionInfo": "1.7.2",
+      "downloadLocation": "https://rubygems.org/gems/cama_meta_tag/versions/1.7.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2c0a0b03102f992ef14bf3e683dba5a2200babab8845f6ac72ecb2d38fbae142"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/cama_meta_tag/versions/1.7.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/cama_meta_tag@1.7.2"
+        }
+      ],
+      "supplier": "Person: Owen Peredo",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "name": "camaleon_cms",
+      "versionInfo": "2.8.0",
+      "downloadLocation": "https://rubygems.org/gems/camaleon_cms/versions/2.8.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "be804c3f9180c90fc824e936defe2fbe627293d4bfb0d026da588f172d0bd7c0"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/camaleon_cms/versions/2.8.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/camaleon_cms@2.8.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2024-46986"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2024-46987"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "GHSA",
+          "referenceLocator": "GHSA-7x4w-cj9r-h4v9"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "GHSA",
+          "referenceLocator": "GHSA-cp65-5m9r-vc2c"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "GHSA",
+          "referenceLocator": "GHSA-r9cr-qmfw-pmrc"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "GHSA",
+          "referenceLocator": "GHSA-wmjg-vqhv-q5p5"
+        }
+      ],
+      "supplier": "Person: Owen Peredo Diaz",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CANCANCAN-3.6.1",
+      "name": "cancancan",
+      "versionInfo": "3.6.1",
+      "downloadLocation": "https://rubygems.org/gems/cancancan/versions/3.6.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "975c1d5cbf58d5df48a9452a7f61ae3d254608cd87570402f5925a8864c56b62"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/cancancan/versions/3.6.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/cancancan@3.6.1"
+        }
+      ],
+      "supplier": "Person: Alessandro Rodi",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CONCURRENT-RUBY-1.3.1",
+      "name": "concurrent-ruby",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "https://rubygems.org/gems/concurrent-ruby/versions/1.3.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c369f1d0875b42295fe0fabc321065f3cfeab8c32c526c01b6b05af1efc8b0ce"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/concurrent-ruby/versions/1.3.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/concurrent-ruby@1.3.1"
+        }
+      ],
+      "supplier": "Person: Jerry D'Antonio",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CONNECTION-POOL-2.4.1",
+      "name": "connection_pool",
+      "versionInfo": "2.4.1",
+      "downloadLocation": "https://rubygems.org/gems/connection_pool/versions/2.4.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f40cf997091f1f04ff66da67eabd61a9fe0d4928b9a3645228532512fab62f4"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/connection_pool/versions/2.4.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/connection_pool@2.4.1"
+        }
+      ],
+      "supplier": "Person: Mike Perham",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-CRASS-1.0.6",
+      "name": "crass",
+      "versionInfo": "1.0.6",
+      "downloadLocation": "https://rubygems.org/gems/crass/versions/1.0.6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc516022a56e7b3b156099abc81b6d2b08ea1ed12676ac7a5657617f012bd45d"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/crass/versions/1.0.6",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/crass@1.0.6"
+        }
+      ],
+      "supplier": "Person: Ryan Grove",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-DATE-3.3.4",
+      "name": "date",
+      "versionInfo": "3.3.4",
+      "downloadLocation": "https://rubygems.org/gems/date/versions/3.3.4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "91e9425816afbb6c744a43a9c01a519745c1ed9ba29b7694e6e3caa6c87e7db1"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/date/versions/3.3.4",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/date@3.3.4"
+        }
+      ],
+      "supplier": "Person: Tadayoshi Funaba",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "name": "draper",
+      "versionInfo": "4.0.2",
+      "downloadLocation": "https://rubygems.org/gems/draper/versions/4.0.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5ce3e11ee31808a55cfc6bfbdbb81bf36730984176b5c865bcfd1f4987e8e1af"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/draper/versions/4.0.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/draper@4.0.2"
+        }
+      ],
+      "supplier": "Person: Jeff Casimir",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-DRB-2.2.1",
+      "name": "drb",
+      "versionInfo": "2.2.1",
+      "downloadLocation": "https://rubygems.org/gems/drb/versions/2.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9d472bf785f558b96b25358bae115646da0dbfd45107ad858b0bc0d935cb340"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/drb/versions/2.2.1",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/drb@2.2.1"
+        }
+      ],
+      "supplier": "Person: Masatoshi SEKI",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ERUBI-1.12.0",
+      "name": "erubi",
+      "versionInfo": "1.12.0",
+      "downloadLocation": "https://rubygems.org/gems/erubi/versions/1.12.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "27bedb74dfb1e04ff60674975e182d8ca787f2224f2e8143268c7696f42e4723"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/erubi/versions/1.12.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/erubi@1.12.0"
+        }
+      ],
+      "supplier": "Person: Jeremy Evans",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-FFI-1.17.0",
+      "name": "ffi",
+      "versionInfo": "1.17.0",
+      "downloadLocation": "https://rubygems.org/gems/ffi/versions/1.17.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51630e43425078311c056ca75f961bb3bda1641ab36e44ad4c455e0b0e4a231c"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/ffi/versions/1.17.0",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/ffi@1.17.0"
+        }
+      ],
+      "supplier": "Person: Wayne Meissner",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-FONT-AWESOME-RAILS-0.5.0",
+      "name": "font-awesome-rails",
+      "versionInfo": "0.5.0",
+      "downloadLocation": "https://rubygems.org/gems/font-awesome-rails/versions/0.5.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b283da057908635461ff67e42f7566b46934eb9ca04dc6d6733ebd897f07fa93"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/font-awesome-rails/versions/0.5.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseComments": "SOOS has attempted to but could not reach a reasonable objective license determination from the package's manifest or API response for font-awesome-rails@0.5.0. NOTE: SOOS does not inspect source code, binary, archive, or other files for license information.",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/font-awesome-rails@0.5.0"
+        }
+      ],
+      "supplier": "Organization: bokmann",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-GLOBALID-1.2.1",
+      "name": "globalid",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "https://rubygems.org/gems/globalid/versions/1.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70bf76711871f843dbba72beb8613229a49429d1866828476f9c9d6ccc327ce9"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/globalid/versions/1.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/globalid@1.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-I18N-1.14.6",
+      "name": "i18n",
+      "versionInfo": "1.14.6",
+      "downloadLocation": "https://rubygems.org/gems/i18n/versions/1.14.6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc229a74f5d181f09942dd60ab5d6e667f7392c4ee826f35096db36d1fe3614c"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/i18n/versions/1.14.6",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/i18n@1.14.6"
+        }
+      ],
+      "supplier": "Person: Sven Fuchs",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-IO-CONSOLE-0.7.2",
+      "name": "io-console",
+      "versionInfo": "0.7.2",
+      "downloadLocation": "https://rubygems.org/gems/io-console/versions/0.7.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f0dccff252f877a4f60d04a4dc6b442b185ebffb4b320ab69212a92b48a7a221"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/io-console/versions/0.7.2",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/io-console@0.7.2"
+        }
+      ],
+      "supplier": "Person: Nobu Nakada",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-IPADDRESS-0.8.3",
+      "name": "ipaddress",
+      "versionInfo": "0.8.3",
+      "downloadLocation": "https://rubygems.org/gems/ipaddress/versions/0.8.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "85640c4f9194c26937afc8c78e3074a8e7c97d5d1210358d1440f01034d006f5"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/ipaddress/versions/0.8.3",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/ipaddress@0.8.3"
+        }
+      ],
+      "supplier": "Organization: bluemonk",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-IRB-1.13.1",
+      "name": "irb",
+      "versionInfo": "1.13.1",
+      "downloadLocation": "https://rubygems.org/gems/irb/versions/1.13.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa552f30b33f15615cff4ca8d04bace0bdd442777efb5187d9a621707889f292"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/irb/versions/1.13.1",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/irb@1.13.1"
+        }
+      ],
+      "supplier": "Organization: ruby",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-JAR-DEPENDENCIES-0.4.1",
+      "name": "jar-dependencies",
+      "versionInfo": "0.4.1",
+      "downloadLocation": "https://rubygems.org/gems/jar-dependencies/versions/0.4.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2df2f1ecbff15334ce20ea7fdd5b8d8161faab67761ff72c7647d728e40d387"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/jar-dependencies/versions/0.4.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/jar-dependencies@0.4.1"
+        }
+      ],
+      "supplier": "Person: christian meier",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-JMESPATH-1.6.2",
+      "name": "jmespath",
+      "versionInfo": "1.6.2",
+      "downloadLocation": "https://rubygems.org/gems/jmespath/versions/1.6.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "238d774a58723d6c090494c8879b5e9918c19485f7e840f2c1c7532cf84ebcb1"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/jmespath/versions/1.6.2",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/jmespath@1.6.2"
+        }
+      ],
+      "supplier": "Person: Trevor Rowe",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-JQUERY-RAILS-4.6.0",
+      "name": "jquery-rails",
+      "versionInfo": "4.6.0",
+      "downloadLocation": "https://rubygems.org/gems/jquery-rails/versions/4.6.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c4e6bf47274340b44d836b8aa1b5472c6d451e2739af5ec094421f39025a7e2"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/jquery-rails/versions/4.6.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/jquery-rails@4.6.0"
+        }
+      ],
+      "supplier": "Person: André Arko",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-LOGGER-1.6.0",
+      "name": "logger",
+      "versionInfo": "1.6.0",
+      "downloadLocation": "https://rubygems.org/gems/logger/versions/1.6.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ab7c120262dd8de2a18cb8d377f1f318cbe98535160a508af9e7710ff43ef3e"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/logger/versions/1.6.0",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/logger@1.6.0"
+        }
+      ],
+      "supplier": "Person: Naotoshi Seo",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-LOOFAH-2.22.0",
+      "name": "loofah",
+      "versionInfo": "2.22.0",
+      "downloadLocation": "https://rubygems.org/gems/loofah/versions/2.22.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "10d76e070c86b12fec74b6a9515fd1940f4459198b991342d0a7897d86c372fe"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/loofah/versions/2.22.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/loofah@2.22.0"
+        }
+      ],
+      "supplier": "Person: Mike Dalessio",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-MAIL-2.8.1",
+      "name": "mail",
+      "versionInfo": "2.8.1",
+      "downloadLocation": "https://rubygems.org/gems/mail/versions/2.8.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec3b9fadcf2b3755c78785cb17bc9a0ca9ee9857108a64b6f5cfc9c0b5bfc9ad"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/mail/versions/2.8.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/mail@2.8.1"
+        }
+      ],
+      "supplier": "Person: Mikel Lindsaar",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-MARCEL-1.0.4",
+      "name": "marcel",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "https://rubygems.org/gems/marcel/versions/1.0.4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0d5649feb64b8f19f3d3468b96c680bae9746335d02194270287868a661516a4"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/marcel/versions/1.0.4",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/marcel@1.0.4"
+        }
+      ],
+      "supplier": "Person: Tom Ward",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-META-TAGS-2.21.0",
+      "name": "meta-tags",
+      "versionInfo": "2.21.0",
+      "downloadLocation": "https://rubygems.org/gems/meta-tags/versions/2.21.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfaa2ccd32b2700c3538c9eae647191295a06f47f0d8558e685a6a7158171cfb"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/meta-tags/versions/2.21.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/meta-tags@2.21.0"
+        }
+      ],
+      "supplier": "Person: Dmytro Shteflyuk",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-MINI-MAGICK-5.0.1",
+      "name": "mini_magick",
+      "versionInfo": "5.0.1",
+      "downloadLocation": "https://rubygems.org/gems/mini_magick/versions/5.0.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e66bb393b46d9155019245e070aef1ad84f871456fbfe44861c56180137de7c5"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/mini_magick/versions/5.0.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/mini_magick@5.0.1"
+        }
+      ],
+      "supplier": "Person: Corey Johnson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-MINI-MIME-1.1.5",
+      "name": "mini_mime",
+      "versionInfo": "1.1.5",
+      "downloadLocation": "https://rubygems.org/gems/mini_mime/versions/1.1.5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8681b7e2e4215f2a159f9400b5816d85e9d8c6c6b491e96a12797e798f8bccef"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/mini_mime/versions/1.1.5",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/mini_mime@1.1.5"
+        }
+      ],
+      "supplier": "Person: Sam Saffron",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-MINI-PORTILE2-2.8.7",
+      "name": "mini_portile2",
+      "versionInfo": "2.8.7",
+      "downloadLocation": "https://rubygems.org/gems/mini_portile2/versions/2.8.7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "13eef5ab459bbfd33d61e539564ec25a9c2cf593b0a5ea6d4d7ef8c19b162ee0"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/mini_portile2/versions/2.8.7",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/mini_portile2@2.8.7"
+        }
+      ],
+      "supplier": "Person: Luis Lavena",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-MINITEST-5.23.1",
+      "name": "minitest",
+      "versionInfo": "5.23.1",
+      "downloadLocation": "https://rubygems.org/gems/minitest/versions/5.23.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1e8f8d6ffd96fb17339ce50768bcbbdbbadff5073cb9583d084403877a77abe"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/minitest/versions/5.23.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/minitest@5.23.1"
+        }
+      ],
+      "supplier": "Person: Ryan Davis",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NET-IMAP-0.4.12",
+      "name": "net-imap",
+      "versionInfo": "0.4.12",
+      "downloadLocation": "https://rubygems.org/gems/net-imap/versions/0.4.12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63a3f247934786b28555b0865c6c615a59445b683a8458b1449e016bc0a6cca3"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/net-imap/versions/0.4.12",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/net-imap@0.4.12"
+        }
+      ],
+      "supplier": "Person: Shugo Maeda",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NET-POP-0.1.2",
+      "name": "net-pop",
+      "versionInfo": "0.1.2",
+      "downloadLocation": "https://rubygems.org/gems/net-pop/versions/0.1.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "848b4e982013c15b2f0382792268763b748cce91c9e91e36b0f27ed26420dff3"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/net-pop/versions/0.1.2",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/net-pop@0.1.2"
+        }
+      ],
+      "supplier": "Person: Yukihiro Matsumoto",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NET-PROTOCOL-0.2.2",
+      "name": "net-protocol",
+      "versionInfo": "0.2.2",
+      "downloadLocation": "https://rubygems.org/gems/net-protocol/versions/0.2.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa73e0cba6a125369de9837b8d8ef82a61849360eba0521900e2c3713aa162a8"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/net-protocol/versions/0.2.2",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/net-protocol@0.2.2"
+        }
+      ],
+      "supplier": "Person: Yukihiro Matsumoto",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NET-SMTP-0.5.0",
+      "name": "net-smtp",
+      "versionInfo": "0.5.0",
+      "downloadLocation": "https://rubygems.org/gems/net-smtp/versions/0.5.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5fc0415e6ea1cc0b3dfea7270438ec22b278ca8d524986a3ae4e5ae8d087b42a"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/net-smtp/versions/0.5.0",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/net-smtp@0.5.0"
+        }
+      ],
+      "supplier": "Person: Yukihiro Matsumoto",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NIO4R-2.7.3",
+      "name": "nio4r",
+      "versionInfo": "2.7.3",
+      "downloadLocation": "https://rubygems.org/gems/nio4r/versions/2.7.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6e2017ecddbe1cd4c3391fadbc4f822fdb28904ca473f72fe766dbca6d89472f"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/nio4r/versions/2.7.3",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/nio4r@2.7.3"
+        }
+      ],
+      "supplier": "Person: Tony Arcieri",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "name": "nokogiri",
+      "versionInfo": "1.16.7",
+      "downloadLocation": "https://rubygems.org/gems/nokogiri/versions/1.16.7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f819cbfdfb0a7b19c9c52c6f2ca63df0e58a6125f4f139707b586b9511d7fe95"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/nokogiri/versions/1.16.7",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/nokogiri@1.16.7"
+        }
+      ],
+      "supplier": "Person: Mike Dalessio",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-NON-DIGEST-ASSETS-2.3.0",
+      "name": "non-digest-assets",
+      "versionInfo": "2.3.0",
+      "downloadLocation": "https://rubygems.org/gems/non-digest-assets/versions/2.3.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b88b6a70273f0ad6f0a1a104f17607507d9457e0badfe670ae74724250b98d39"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/non-digest-assets/versions/2.3.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/non-digest-assets@2.3.0"
+        }
+      ],
+      "supplier": "Person: Alex Speller",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-PSYCH-5.1.2",
+      "name": "psych",
+      "versionInfo": "5.1.2",
+      "downloadLocation": "https://rubygems.org/gems/psych/versions/5.1.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1dd68dc609eddbc884e6892e11da942e16f7256bd30ebde9d35449d43043a6fe"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/psych/versions/5.1.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/psych@5.1.2"
+        }
+      ],
+      "supplier": "Person: Aaron Patterson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-PUBLIC-SUFFIX-5.0.5",
+      "name": "public_suffix",
+      "versionInfo": "5.0.5",
+      "downloadLocation": "https://rubygems.org/gems/public_suffix/versions/5.0.5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "72c340218bb384610536919988705cc29e09749c0021fd7005f715c7e5dfc493"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/public_suffix/versions/5.0.5",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/public_suffix@5.0.5"
+        }
+      ],
+      "supplier": "Person: Simone Carletti",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RACC-1.8.0",
+      "name": "racc",
+      "versionInfo": "1.8.0",
+      "downloadLocation": "https://rubygems.org/gems/racc/versions/1.8.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3688448632150682bbd708b199961129aed2266107e26fcacb45c997395c19f9"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/racc/versions/1.8.0",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/racc@1.8.0"
+        }
+      ],
+      "supplier": "Person: Minero Aoki",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RACK-3.1.7",
+      "name": "rack",
+      "versionInfo": "3.1.7",
+      "downloadLocation": "https://rubygems.org/gems/rack/versions/3.1.7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0e9982db4ea9013326788ca2a7f48e32a4e746765e7c3512d424ef0dd22ae58b"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rack/versions/3.1.7",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rack@3.1.7"
+        }
+      ],
+      "supplier": "Person: Leah Neukirchen",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RACK-SESSION-2.0.0",
+      "name": "rack-session",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://rubygems.org/gems/rack-session/versions/2.0.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "db04b2063e180369192a9046b4559af311990af38c6a93d4c600cee4eb6d4e81"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rack-session/versions/2.0.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rack-session@2.0.0"
+        }
+      ],
+      "supplier": "Person: Samuel Williams",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RACK-TEST-2.1.0",
+      "name": "rack-test",
+      "versionInfo": "2.1.0",
+      "downloadLocation": "https://rubygems.org/gems/rack-test/versions/2.1.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c61fc61904049d691922ea4bb99e28004ed3f43aa5cfd495024cc345f125dfb"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rack-test/versions/2.1.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rack-test@2.1.0"
+        }
+      ],
+      "supplier": "Person: Jeremy Evans",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RACKUP-2.1.0",
+      "name": "rackup",
+      "versionInfo": "2.1.0",
+      "downloadLocation": "https://rubygems.org/gems/rackup/versions/2.1.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ecb884a581990332e45ee17bdfdc14ccbee46c2f710ae1566019907869a6c4d"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rackup/versions/2.1.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rackup@2.1.0"
+        }
+      ],
+      "supplier": "Person: Samuel Williams",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RAILS-7.2.1",
+      "name": "rails",
+      "versionInfo": "7.2.1",
+      "downloadLocation": "https://rubygems.org/gems/rails/versions/7.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd5684e5d007220960666a3a8b31a57cd1c8cd7f60d88cb40e28e95f1911b705"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rails/versions/7.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rails@7.2.1"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "name": "rails-dom-testing",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "https://rubygems.org/gems/rails-dom-testing/versions/2.2.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e515712e48df1f687a1d7c380fd7b07b8558faa26464474da64183a7426fa93b"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rails-dom-testing/versions/2.2.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rails-dom-testing@2.2.0"
+        }
+      ],
+      "supplier": "Person: Rafael Mendonça França",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RAILS-HTML-SANITIZER-1.6.0",
+      "name": "rails-html-sanitizer",
+      "versionInfo": "1.6.0",
+      "downloadLocation": "https://rubygems.org/gems/rails-html-sanitizer/versions/1.6.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86e9f19d2e6748890dcc2633c8945ca45baa08a1df9d8c215ce17b3b0afaa4de"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rails-html-sanitizer/versions/1.6.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rails-html-sanitizer@1.6.0"
+        }
+      ],
+      "supplier": "Person: Rafael Mendonça França",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "name": "railties",
+      "versionInfo": "7.1.3",
+      "downloadLocation": "https://rubygems.org/gems/railties/versions/7.1.3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7a1dc59c93296f239a9d97b5a9c52c49fd8f7dcdac33ebe4cf39842ff92b50a6"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/railties/versions/7.1.3",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/railties@7.1.3"
+        }
+      ],
+      "supplier": "Person: David Heinemeier Hansson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RAKE-13.2.1",
+      "name": "rake",
+      "versionInfo": "13.2.1",
+      "downloadLocation": "https://rubygems.org/gems/rake/versions/13.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "46cb38dae65d7d74b6020a4ac9d48afed8eb8149c040eccf0523bec91907059d"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rake/versions/13.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rake@13.2.1"
+        }
+      ],
+      "supplier": "Person: Hiroshi SHIBATA",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RDOC-6.7.0",
+      "name": "rdoc",
+      "versionInfo": "6.7.0",
+      "downloadLocation": "https://rubygems.org/gems/rdoc/versions/6.7.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b17d5f0f57b0853d7b880d4360a32c7caf8dbb81f8503a36426df809e617f379"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/rdoc/versions/6.7.0",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/rdoc@6.7.0"
+        }
+      ],
+      "supplier": "Person: Eric Hodel",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RECAPTCHA-5.16.0",
+      "name": "recaptcha",
+      "versionInfo": "5.16.0",
+      "downloadLocation": "https://rubygems.org/gems/recaptcha/versions/5.16.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "684b53b1b791e0d1f24147d623b544b4ed3eeb71e27f69d590d271f8d3301106"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/recaptcha/versions/5.16.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/recaptcha@5.16.0"
+        }
+      ],
+      "supplier": "Person: Jason L Perry",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RELINE-0.5.8",
+      "name": "reline",
+      "versionInfo": "0.5.8",
+      "downloadLocation": "https://rubygems.org/gems/reline/versions/0.5.8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "467faa77616677035786819d7d2e6cfa048be64542c10d8eda81dacd939aea02"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/reline/versions/0.5.8",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/reline@0.5.8"
+        }
+      ],
+      "supplier": "Organization: ruby",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-REQUEST-STORE-1.7.0",
+      "name": "request_store",
+      "versionInfo": "1.7.0",
+      "downloadLocation": "https://rubygems.org/gems/request_store/versions/1.7.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1b75d5346a315f452242a68c937ef8e48b215b9453a77a6c0acdca2934c88cb"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/request_store/versions/1.7.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/request_store@1.7.0"
+        }
+      ],
+      "supplier": "Person: Steve Klabnik",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-RUBY2-KEYWORDS-0.0.5",
+      "name": "ruby2_keywords",
+      "versionInfo": "0.0.5",
+      "downloadLocation": "https://rubygems.org/gems/ruby2_keywords/versions/0.0.5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ffd13740c573b7301cf7a2e61fc857b2a8e3d3aff32545d6f8300d8bae10e3ef"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/ruby2_keywords/versions/0.0.5",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/ruby2_keywords@0.0.5"
+        }
+      ],
+      "supplier": "Person: Nobuyoshi Nakada",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-SASS-RAILS-6.0.0",
+      "name": "sass-rails",
+      "versionInfo": "6.0.0",
+      "downloadLocation": "https://rubygems.org/gems/sass-rails/versions/6.0.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e0b6448ea1c7929fd5929fc7a8eb2d78045e44cc82fc0765a249d3fa1c5810d3"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/sass-rails/versions/6.0.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/sass-rails@6.0.0"
+        }
+      ],
+      "supplier": "Organization: rails",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-SASSC-2.4.0",
+      "name": "sassc",
+      "versionInfo": "2.4.0",
+      "downloadLocation": "https://rubygems.org/gems/sassc/versions/2.4.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8773b917cb52c7e92c94d4bf324c1c0be3e50d9092f9f5ed4c3c6e454b451c5e"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/sassc/versions/2.4.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/sassc@2.4.0"
+        }
+      ],
+      "supplier": "Person: Ryan Boland",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "name": "sassc-rails",
+      "versionInfo": "2.1.2",
+      "downloadLocation": "https://rubygems.org/gems/sassc-rails/versions/2.1.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5f4fdf3881fc9bdc8e856ffbd9850d70a2878866feae8114aa45996179952db5"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/sassc-rails/versions/2.1.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/sassc-rails@2.1.2"
+        }
+      ],
+      "supplier": "Person: Ryan Boland",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-SECURERANDOM-0.3.1",
+      "name": "securerandom",
+      "versionInfo": "0.3.1",
+      "downloadLocation": "https://rubygems.org/gems/securerandom/versions/0.3.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "98f0450c0ea46d2f9a4b6db4f391dbd83dc08049592eada155739f40e0341bde"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/securerandom/versions/0.3.1",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/securerandom@0.3.1"
+        }
+      ],
+      "supplier": "Person: Tanaka Akira",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-SPROCKETS-4.2.1",
+      "name": "sprockets",
+      "versionInfo": "4.2.1",
+      "downloadLocation": "https://rubygems.org/gems/sprockets/versions/4.2.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "951b13dd2f2fcae840a7184722689a803e0ff9d2702d902bd844b196da773f97"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/sprockets/versions/4.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/sprockets@4.2.1"
+        }
+      ],
+      "supplier": "Person: Sam Stephenson",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-SPROCKETS-RAILS-3.5.0",
+      "name": "sprockets-rails",
+      "versionInfo": "3.5.0",
+      "downloadLocation": "https://rubygems.org/gems/sprockets-rails/versions/3.5.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9d26058fe90d0f47fdaac13c0059110d5f959c08c4f90e8dd4cb34b3d90f2003"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/sprockets-rails/versions/3.5.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/sprockets-rails@3.5.0"
+        }
+      ],
+      "supplier": "Person: Joshua Peek",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-THOR-1.3.1",
+      "name": "thor",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "https://rubygems.org/gems/thor/versions/1.3.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fa7e3471d4f6a27138e3d9c9b0d4daac9c3d7383927667ae83e9ab42ae7401ef"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/thor/versions/1.3.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/thor@1.3.1"
+        }
+      ],
+      "supplier": "Person: Yehuda Katz",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-TILT-2.4.0",
+      "name": "tilt",
+      "versionInfo": "2.4.0",
+      "downloadLocation": "https://rubygems.org/gems/tilt/versions/2.4.0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df74f29a451daed26591a85e8e0cebb198892cb75b6573394303acda273fba4d"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/tilt/versions/2.4.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/tilt@2.4.0"
+        }
+      ],
+      "supplier": "Person: Ryan Tomayko",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-TIMEOUT-0.4.1",
+      "name": "timeout",
+      "versionInfo": "0.4.1",
+      "downloadLocation": "https://rubygems.org/gems/timeout/versions/0.4.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6f1f4edd4bca28cffa59501733a94215407c6960bd2107331f0280d4abdebb9a"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/timeout/versions/0.4.1",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/timeout@0.4.1"
+        }
+      ],
+      "supplier": "Person: Yukihiro Matsumoto",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-TINYMCE-RAILS-4.9.11",
+      "name": "tinymce-rails",
+      "versionInfo": "4.9.11",
+      "downloadLocation": "https://rubygems.org/gems/tinymce-rails/versions/4.9.11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "44ff26a1ea5fb0d2d511083788e4611313fd9e71716d954b9357d9909c1db949"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/tinymce-rails/versions/4.9.11",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/tinymce-rails@4.9.11"
+        }
+      ],
+      "supplier": "Person: Sam Pohlenz",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-TZINFO-2.0.6",
+      "name": "tzinfo",
+      "versionInfo": "2.0.6",
+      "downloadLocation": "https://rubygems.org/gems/tzinfo/versions/2.0.6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/tzinfo/versions/2.0.6",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/tzinfo@2.0.6"
+        }
+      ],
+      "supplier": "Person: Philip Ross",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-USERAGENT-0.16.10",
+      "name": "useragent",
+      "versionInfo": "0.16.10",
+      "downloadLocation": "https://rubygems.org/gems/useragent/versions/0.16.10",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1794380d9ea5c087d687bbfe14752f81839293f238c1132ef05c9344f09e65bb"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/useragent/versions/0.16.10",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/useragent@0.16.10"
+        }
+      ],
+      "supplier": "Person: Joshua Peek",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-WEBRICK-1.8.1",
+      "name": "webrick",
+      "versionInfo": "1.8.1",
+      "downloadLocation": "https://rubygems.org/gems/webrick/versions/1.8.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19411ec6912911fd3df13559110127ea2badd0c035f7762873f58afc803e158f"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/webrick/versions/1.8.1",
+      "licenseDeclared": "Ruby",
+      "licenseConcluded": "Ruby",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/webrick@1.8.1"
+        }
+      ],
+      "supplier": "Person: TAKAHASHI Masayoshi",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-WEBSOCKET-DRIVER-0.7.6",
+      "name": "websocket-driver",
+      "versionInfo": "0.7.6",
+      "downloadLocation": "https://rubygems.org/gems/websocket-driver/versions/0.7.6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bc894b9e9d5aee55ac04b61003e1957c4ef411a5a048199587d0499785b505c3"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/websocket-driver/versions/0.7.6",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/websocket-driver@0.7.6"
+        }
+      ],
+      "supplier": "Person: James Coglan",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-WEBSOCKET-EXTENSIONS-0.1.5",
+      "name": "websocket-extensions",
+      "versionInfo": "0.1.5",
+      "downloadLocation": "https://rubygems.org/gems/websocket-extensions/versions/0.1.5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1c6ba63092cda343eb53fc657110c71c754c56484aad42578495227d717a8241"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/websocket-extensions/versions/0.1.5",
+      "licenseDeclared": "Apache-2.0",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/websocket-extensions@0.1.5"
+        }
+      ],
+      "supplier": "Person: James Coglan",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-WILL-PAGINATE-4.0.1",
+      "name": "will_paginate",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "https://rubygems.org/gems/will_paginate/versions/4.0.1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "107b226ebe1d393d274575956a7c472e1eefdd97d8828e01b72d425d15a875b9"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/will_paginate/versions/4.0.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/will_paginate@4.0.1"
+        }
+      ],
+      "supplier": "Person: Mislav Marohnić",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-WILL-PAGINATE-BOOTSTRAP-1.0.2",
+      "name": "will_paginate-bootstrap",
+      "versionInfo": "1.0.2",
+      "downloadLocation": "https://rubygems.org/gems/will_paginate-bootstrap/versions/1.0.2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "17989f10d86e8fff52a02c61595aed38aebdded231f57f8db83c3ff73cfbca6d"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/will_paginate-bootstrap/versions/1.0.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/will_paginate-bootstrap@1.0.2"
+        }
+      ],
+      "supplier": "Person: Nick Dainty",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-RUBY-ZEITWERK-2.6.15",
+      "name": "zeitwerk",
+      "versionInfo": "2.6.15",
+      "downloadLocation": "https://rubygems.org/gems/zeitwerk/versions/2.6.15",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2e68622ba95680a357430c89e1777d6e6796d63c7c02e8790cc38f4c33822cf"
+        }
+      ],
+      "homepage": "https://rubygems.org/gems/zeitwerk/versions/2.6.15",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:gem/zeitwerk@2.6.15"
+        }
+      ],
+      "supplier": "Person: Xavier Noria",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-NIO4R-2.7.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-WEBSOCKET-DRIVER-0.7.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ZEITWERK-2.6.15",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-MAIL-2.8.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-MAIL-2.8.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACC-1.8.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-SESSION-2.0.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-TEST-2.1.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-3.1.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-HTML-SANITIZER-1.6.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-USERAGENT-0.16.10",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-GLOBALID-1.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-BUILDER-3.3.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-ERUBI-1.12.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-HTML-SANITIZER-1.6.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-GLOBALID-1.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVEMODEL-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVEMODEL-SERIALIZERS-XML-1.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEMODEL-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVEMODEL-SERIALIZERS-XML-1.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVEMODEL-SERIALIZERS-XML-1.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-BUILDER-3.3.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEMODEL-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-TIMEOUT-0.4.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-MARCEL-1.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-BASE64-0.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-BIGDECIMAL-3.1.8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-CONCURRENT-RUBY-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-CONNECTION-POOL-2.4.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-DRB-2.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-I18N-1.14.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-LOGGER-1.6.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-MINITEST-5.23.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-SECURERANDOM-0.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relatedSpdxElement": "SPDXRef-RUBY-TZINFO-2.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-ADDRESSABLE-2.8.7",
+      "relatedSpdxElement": "SPDXRef-RUBY-PUBLIC-SUFFIX-5.0.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-EVENTSTREAM-1.3.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-PARTITIONS-1.940.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SIGV4-1.8.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-JMESPATH-1.6.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-KMS-1.83.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-KMS-1.83.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SIGV4-1.8.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-S3-1.163.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SDK-CORE-3.197.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-S3-1.163.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SDK-KMS-1.83.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SDK-S3-1.163.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SIGV4-1.8.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-AWS-SIGV4-1.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-EVENTSTREAM-1.3.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-BREADCRUMBS-ON-RAILS-4.1.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMA-CONTACT-FORM-0.1.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMA-CONTACT-FORM-0.1.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RECAPTCHA-5.16.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMA-META-TAG-1.7.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-ADDRESSABLE-2.8.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-AWS-SDK-S3-1.163.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-BCRYPT-3.1.20",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-BREADCRUMBS-ON-RAILS-4.1.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-CAMA-CONTACT-FORM-0.1.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-CAMA-META-TAG-1.7.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-CANCANCAN-3.6.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-FONT-AWESOME-RAILS-0.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-IPADDRESS-0.8.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-JQUERY-RAILS-4.6.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-META-TAGS-2.21.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-MINI-MAGICK-5.0.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-NON-DIGEST-ASSETS-2.3.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-SASS-RAILS-6.0.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-SPROCKETS-RAILS-3.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-TINYMCE-RAILS-4.9.11",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-WILL-PAGINATE-BOOTSTRAP-1.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-CAMALEON-CMS-2.8.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-WILL-PAGINATE-4.0.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEMODEL-SERIALIZERS-XML-1.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEMODEL-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-REQUEST-STORE-1.7.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-DRAPER-4.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-RUBY2-KEYWORDS-0.0.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-FONT-AWESOME-RAILS-0.5.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-GLOBALID-1.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-I18N-1.14.6",
+      "relatedSpdxElement": "SPDXRef-RUBY-CONCURRENT-RUBY-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-IRB-1.13.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RDOC-6.7.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-IRB-1.13.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RELINE-0.5.8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-JQUERY-RAILS-4.6.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-JQUERY-RAILS-4.6.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-JQUERY-RAILS-4.6.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-THOR-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-LOOFAH-2.22.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-CRASS-1.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-LOOFAH-2.22.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-MAIL-2.8.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-MINI-MIME-1.1.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-MAIL-2.8.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-NET-IMAP-0.4.12",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-MAIL-2.8.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-NET-POP-0.1.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-MAIL-2.8.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-NET-SMTP-0.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-META-TAGS-2.21.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NET-IMAP-0.4.12",
+      "relatedSpdxElement": "SPDXRef-RUBY-DATE-3.3.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NET-IMAP-0.4.12",
+      "relatedSpdxElement": "SPDXRef-RUBY-NET-PROTOCOL-0.2.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NET-POP-0.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-NET-PROTOCOL-0.2.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NET-PROTOCOL-0.2.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-TIMEOUT-0.4.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NET-SMTP-0.5.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-NET-PROTOCOL-0.2.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relatedSpdxElement": "SPDXRef-RUBY-MINI-PORTILE2-2.8.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACC-1.8.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NON-DIGEST-ASSETS-2.3.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-NON-DIGEST-ASSETS-2.3.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-SPROCKETS-4.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-PSYCH-5.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-JAR-DEPENDENCIES-0.4.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RACK-SESSION-2.0.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-3.1.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RACK-TEST-2.1.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-3.1.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RACKUP-2.1.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-3.1.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RACKUP-2.1.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-WEBRICK-1.8.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONCABLE-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONMAILBOX-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONMAILER-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONTEXT-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONVIEW-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEJOB-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVEMODEL-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVERECORD-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESTORAGE-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-BUNDLER-2.5.17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-7.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-MINITEST-5.23.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-DOM-TESTING-2.2.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-HTML-SANITIZER-1.6.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-LOOFAH-2.22.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILS-HTML-SANITIZER-1.6.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-NOKOGIRI-1.16.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-IRB-1.13.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACKUP-2.1.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAKE-13.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-THOR-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relatedSpdxElement": "SPDXRef-RUBY-ZEITWERK-2.6.15",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RDOC-6.7.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-PSYCH-5.1.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-RELINE-0.5.8",
+      "relatedSpdxElement": "SPDXRef-RUBY-IO-CONSOLE-0.7.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-REQUEST-STORE-1.7.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-3.1.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASS-RAILS-6.0.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASSC-2.4.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-FFI-1.17.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-SASSC-2.4.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-SPROCKETS-RAILS-3.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-SPROCKETS-4.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SASSC-RAILS-2.1.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-TILT-2.4.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SPROCKETS-4.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-CONCURRENT-RUBY-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SPROCKETS-4.2.1",
+      "relatedSpdxElement": "SPDXRef-RUBY-RACK-3.1.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SPROCKETS-RAILS-3.5.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIONPACK-7.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SPROCKETS-RAILS-3.5.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-ACTIVESUPPORT-7.2.0.rc1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-SPROCKETS-RAILS-3.5.0",
+      "relatedSpdxElement": "SPDXRef-RUBY-SPROCKETS-4.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-TINYMCE-RAILS-4.9.11",
+      "relatedSpdxElement": "SPDXRef-RUBY-RAILTIES-7.1.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-TZINFO-2.0.6",
+      "relatedSpdxElement": "SPDXRef-RUBY-CONCURRENT-RUBY-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-WEBSOCKET-DRIVER-0.7.6",
+      "relatedSpdxElement": "SPDXRef-RUBY-WEBSOCKET-EXTENSIONS-0.1.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RUBY-WILL-PAGINATE-BOOTSTRAP-1.0.2",
+      "relatedSpdxElement": "SPDXRef-RUBY-WILL-PAGINATE-4.0.1",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
