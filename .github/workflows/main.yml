@@ -19,6 +19,6 @@ jobs:
           sbom_path: "./"
           log_level: DEBUG
           sbom_version: "1.0.1-pre.4"
-          directories_to_exclude: "CDX/**, one file/surrealdb_v1.5.4.rust.cdx.json"
-          files_to_exclude: "SPDX/camaleon cms_v2.8.0.ruby.spdx.json"
+          #directories_to_exclude: "CDX/**, one file/surrealdb_v1.5.4.rust.cdx.json"
+          files_to_exclude: "alpine-baselayout.cdx.json" #"SPDX/camaleon cms_v2.8.0.ruby.spdx.json"
 
