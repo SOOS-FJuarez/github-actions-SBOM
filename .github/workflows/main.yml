@@ -16,8 +16,9 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GitHubActions-SBOM"
           api_url: 'https://qa-api.soos.io/api/' 
-          sbom_path: "cyclonedx/alpine-baselayout.cdx.json"
+          sbom_path: "./"
           log_level: DEBUG
           sbom_version: "1.0.1-pre.4"
-          #directories_to_exclude: "**/subfolder2/**"
-          #files_to_exclude: "**/next_v14.2.13.npm.spdx.json"
+          directories_to_exclude: "CDX/**, one file/surrealdb_v1.5.4.rust.cdx.json"
+          files_to_exclude: "SPDX/camaleon cms_v2.8.0.ruby.spdx.json"
+
