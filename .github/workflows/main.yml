@@ -10,11 +10,14 @@ jobs:
           node-version: 20
       - uses: actions/checkout@master
       - name: Run SOOS SBOM Scan
-        uses: soos-io/soos-sbom-github-action@v1
+        uses: soos-io/soos-sbom-github-action@bdbfacf7c82cf67bed99f32be04f282b2140f139
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GitHubActions-SBOM"
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "cyclonedx/alpine-baselayout.cdx.json"
-          verbose: TRUE
+          log_level: DEBUG
+          sbom_version: "1.0.1-pre.4"
+          #directories_to_exclude: "**/subfolder2/**"
+          #files_to_exclude: "**/next_v14.2.13.npm.spdx.json"
