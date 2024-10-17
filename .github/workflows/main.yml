@@ -14,8 +14,9 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "sbom-githubActions-04"
+          project_name: "sbom-githubActions-05"
           api_url: 'https://qa-api.soos.io/api/'
+          sbom_path: "invalid.cdx.json"
           sbom_version: 1.0.5-pre.1
         
 
