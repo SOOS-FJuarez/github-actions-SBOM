@@ -15,7 +15,7 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "sbom-githubActions-02"
-          sbom_path: "cdx/alpine-baselayout.cdx.json"
+          sbom_path: "alpine-baselayout.cdx.json"
           sbom_version: 1.0.5-pre.1
         
 
