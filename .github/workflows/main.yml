@@ -12,8 +12,8 @@ jobs:
       - name: Run SOOS SBOM Scan
         uses: soos-io/soos-sbom-github-action@b6d8e8427e17895fcaf87a8fb5c8bd35808d67da
         with:
-          client_id: ${{ secrets.SOOS_QA_CLIENT_ID }}
-          api_key: ${{ secrets.SOOS_QA_API_KEY }}
+          client_id: ${{ secrets.SOOS_CLIENT_ID }}
+          api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "sbom-githubActions-08"
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "spdx/camaleon_cms_v2.8.0.ruby.spdx.json"
