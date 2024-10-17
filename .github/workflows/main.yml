@@ -16,7 +16,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "sbom-githubActions-08"
           api_url: 'https://qa-api.soos.io/api/'
-          sbom_path: "cdx/com.alipay.sofa_hessian_v4.0.1.java.cdx.json"
+          sbom_path: "CDX/com.alipay.sofa_hessian_v4.0.1.java.cdx.json"
           sbom_version: 1.0.5-pre.1
         
 
