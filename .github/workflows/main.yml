@@ -14,10 +14,10 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "sbom-githubActions-14"
+          project_name: "sbom-githubActions-13"
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "alpine-baselayout.cdx.json"
-          build_version: "2.0.0"
+          verbose: TRUE
           sbom_version: 1.0.5-pre.1
         
 
