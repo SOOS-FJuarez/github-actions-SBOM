@@ -10,14 +10,13 @@ jobs:
           node-version: 20
       - uses: actions/checkout@master
       - name: Run SOOS SBOM Scan
-        uses: soos-io/soos-sbom-github-action@b6d8e8427e17895fcaf87a8fb5c8bd35808d67da
+        uses: soos-io/soos-sbom-github-action@v1.0.5
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "sbom-githubActions-13"
           api_url: 'https://qa-api.soos.io/api/'
-          sbom_path: "alpine-baselayout.cdx.json"
-          verbose: TRUE
-          sbom_version: 1.0.5-pre.1
-        
+          sbom_path: "SPDX/camaleon_cms_v2.8.0.ruby.spdx.json"
+          build_version: 4.3.1
+          on_failure: "FAIL_THE_BUILD"
 
