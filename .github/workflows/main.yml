@@ -18,4 +18,6 @@ jobs:
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "./"
           build_version: 4.3.1
+          sbom_version: latest
+          log_level: debug
 
