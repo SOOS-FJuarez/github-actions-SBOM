@@ -14,12 +14,12 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "sbom-githubActions-test"
+          project_name: "sbom-githubActions-test-2"
           api_url: 'https://qa-api.soos.io/api/'
           sbom_path: "./"
           build_version: 4.3.1
           sbom_version: latest
           log_level: debug
           files_to_exclude: "**/Flutter/flutter_Downloader_v1.11.0.dart.cdx.json"
-          directories_to_exclude: SPDX/**
+          directories_to_exclude: "SPDX/**, invalid/**, Multiple-SBOMS/**"
 
