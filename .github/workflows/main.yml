@@ -21,4 +21,5 @@ jobs:
           sbom_version: latest
           log_level: debug
           files_to_exclude: "**/Flutter/flutter_Downloader_v1.11.0.dart.cdx.json"
+          directories_to_exclude: SPDX/**
 
