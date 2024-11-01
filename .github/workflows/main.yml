@@ -14,9 +14,8 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "sbom-githubActions-13"
+          project_name: "sbom-githubActions-test"
           api_url: 'https://qa-api.soos.io/api/'
-          sbom_path: "SPDX/camaleon_cms_v2.8.0.ruby.spdx.json"
+          sbom_path: "./"
           build_version: 4.3.1
-          on_failure: "FAIL_THE_BUILD"
 
