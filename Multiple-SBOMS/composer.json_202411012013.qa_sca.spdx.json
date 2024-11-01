@@ -1,0 +1,921 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "composer.json",
+  "documentNamespace": "https://app.soos.io/spdxdocs/g16hb3agi/composer.json-1.0.0-36081051-fa1e-48be-9860-5ef6375f721f",
+  "creationInfo": {
+    "created": "2024-11-01T20:13:42Z",
+    "creators": [
+      "Organization: QA ()",
+      "Person: Franco Juarez (fjuarez+october29@soos.io)",
+      "Tool: SOOS SCA-34.4.7.4"
+    ],
+    "comment": "SOOS SCA scan against composer.json (Manifest Scans), with: Dev Dependencies Enabled, Scan Full Dependency Tree Enabled, Use Lock Files Disabled",
+    "licenseListVersion": "3.9"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-PHP-DOCTRINE-INSTANTIATOR-2.0.0",
+      "name": "doctrine/instantiator",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://packagist.org/packages/doctrine/instantiator#2.0.0",
+      "homepage": "https://packagist.org/packages/doctrine/instantiator#2.0.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/doctrine/instantiator@2.0.0"
+        }
+      ],
+      "supplier": "Person: Marco Pivetta (ocramius@gmail.com)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-DOCTRINE-LEXER-1.2.1",
+      "name": "doctrine/lexer",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "https://packagist.org/packages/doctrine/lexer#1.2.1",
+      "homepage": "https://packagist.org/packages/doctrine/lexer#1.2.1",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/doctrine/lexer@1.2.1"
+        }
+      ],
+      "supplier": "Person: Guilherme Blanco (guilhermeblanco@gmail.com)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-MYCLABS-DEEP-COPY-1.12.0",
+      "name": "myclabs/deep-copy",
+      "versionInfo": "1.12.0",
+      "downloadLocation": "https://packagist.org/packages/myclabs/deep-copy#1.12.0",
+      "homepage": "https://packagist.org/packages/myclabs/deep-copy#1.12.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/myclabs/deep-copy@1.12.0"
+        }
+      ],
+      "supplier": "Organization: myclabs",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-NIKIC-PHP-PARSER-5.3.1",
+      "name": "nikic/php-parser",
+      "versionInfo": "5.3.1",
+      "downloadLocation": "https://packagist.org/packages/nikic/php-parser#5.3.1",
+      "homepage": "https://packagist.org/packages/nikic/php-parser#5.3.1",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/nikic/php-parser@5.3.1"
+        }
+      ],
+      "supplier": "Person: Nikita Popov",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHAR-IO-MANIFEST-2.0.4",
+      "name": "phar-io/manifest",
+      "versionInfo": "2.0.4",
+      "downloadLocation": "https://packagist.org/packages/phar-io/manifest#2.0.4",
+      "homepage": "https://packagist.org/packages/phar-io/manifest#2.0.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phar-io/manifest@2.0.4"
+        }
+      ],
+      "supplier": "Person: Arne Blankerts (arne@blankerts.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHAR-IO-VERSION-3.2.1",
+      "name": "phar-io/version",
+      "versionInfo": "3.2.1",
+      "downloadLocation": "https://packagist.org/packages/phar-io/version#3.2.1",
+      "homepage": "https://packagist.org/packages/phar-io/version#3.2.1",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phar-io/version@3.2.1"
+        }
+      ],
+      "supplier": "Person: Arne Blankerts (arne@blankerts.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPMAILER-PHPMAILER-6.1.5",
+      "name": "phpmailer/phpmailer",
+      "versionInfo": "6.1.5",
+      "downloadLocation": "https://packagist.org/packages/phpmailer/phpmailer#6.1.5",
+      "homepage": "https://packagist.org/packages/phpmailer/phpmailer#6.1.5",
+      "licenseDeclared": "LGPL-2.1-only",
+      "licenseConcluded": "LGPL-2.1-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpmailer/phpmailer@6.1.5"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2020-13625"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2021-34551"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2021-3603"
+        }
+      ],
+      "supplier": "Person: Marcus Bointon (phpmailer@synchromedia.co.uk)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "name": "phpunit/php-code-coverage",
+      "versionInfo": "9.2.32",
+      "downloadLocation": "https://packagist.org/packages/phpunit/php-code-coverage#9.2.32",
+      "homepage": "https://packagist.org/packages/phpunit/php-code-coverage#9.2.32",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpunit/php-code-coverage@9.2.32"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPUNIT-PHP-FILE-ITERATOR-3.0.6",
+      "name": "phpunit/php-file-iterator",
+      "versionInfo": "3.0.6",
+      "downloadLocation": "https://packagist.org/packages/phpunit/php-file-iterator#3.0.6",
+      "homepage": "https://packagist.org/packages/phpunit/php-file-iterator#3.0.6",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpunit/php-file-iterator@3.0.6"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPUNIT-PHP-INVOKER-3.1.1",
+      "name": "phpunit/php-invoker",
+      "versionInfo": "3.1.1",
+      "downloadLocation": "https://packagist.org/packages/phpunit/php-invoker#3.1.1",
+      "homepage": "https://packagist.org/packages/phpunit/php-invoker#3.1.1",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpunit/php-invoker@3.1.1"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPUNIT-PHP-TEXT-TEMPLATE-2.0.4",
+      "name": "phpunit/php-text-template",
+      "versionInfo": "2.0.4",
+      "downloadLocation": "https://packagist.org/packages/phpunit/php-text-template#2.0.4",
+      "homepage": "https://packagist.org/packages/phpunit/php-text-template#2.0.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpunit/php-text-template@2.0.4"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPUNIT-PHP-TIMER-5.0.3",
+      "name": "phpunit/php-timer",
+      "versionInfo": "5.0.3",
+      "downloadLocation": "https://packagist.org/packages/phpunit/php-timer#5.0.3",
+      "homepage": "https://packagist.org/packages/phpunit/php-timer#5.0.3",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpunit/php-timer@5.0.3"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "name": "phpunit/phpunit",
+      "versionInfo": "9.6.21",
+      "downloadLocation": "https://packagist.org/packages/phpunit/phpunit#9.6.21",
+      "homepage": "https://packagist.org/packages/phpunit/phpunit#9.6.21",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/phpunit/phpunit@9.6.21"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-PSR-LOG-3.0.2",
+      "name": "psr/log",
+      "versionInfo": "3.0.2",
+      "downloadLocation": "https://packagist.org/packages/psr/log#3.0.2",
+      "homepage": "https://packagist.org/packages/psr/log#3.0.2",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/psr/log@3.0.2"
+        }
+      ],
+      "supplier": "Person: PHP-FIG",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-CLI-PARSER-1.0.2",
+      "name": "sebastian/cli-parser",
+      "versionInfo": "1.0.2",
+      "downloadLocation": "https://packagist.org/packages/sebastian/cli-parser#1.0.2",
+      "homepage": "https://packagist.org/packages/sebastian/cli-parser#1.0.2",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/cli-parser@1.0.2"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-CODE-UNIT-1.0.8",
+      "name": "sebastian/code-unit",
+      "versionInfo": "1.0.8",
+      "downloadLocation": "https://packagist.org/packages/sebastian/code-unit#1.0.8",
+      "homepage": "https://packagist.org/packages/sebastian/code-unit#1.0.8",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/code-unit@1.0.8"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-CODE-UNIT-REVERSE-LOOKUP-2.0.3",
+      "name": "sebastian/code-unit-reverse-lookup",
+      "versionInfo": "2.0.3",
+      "downloadLocation": "https://packagist.org/packages/sebastian/code-unit-reverse-lookup#2.0.3",
+      "homepage": "https://packagist.org/packages/sebastian/code-unit-reverse-lookup#2.0.3",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/code-unit-reverse-lookup@2.0.3"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-COMPARATOR-4.0.8",
+      "name": "sebastian/comparator",
+      "versionInfo": "4.0.8",
+      "downloadLocation": "https://packagist.org/packages/sebastian/comparator#4.0.8",
+      "homepage": "https://packagist.org/packages/sebastian/comparator#4.0.8",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/comparator@4.0.8"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-COMPLEXITY-2.0.3",
+      "name": "sebastian/complexity",
+      "versionInfo": "2.0.3",
+      "downloadLocation": "https://packagist.org/packages/sebastian/complexity#2.0.3",
+      "homepage": "https://packagist.org/packages/sebastian/complexity#2.0.3",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/complexity@2.0.3"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-DIFF-4.0.6",
+      "name": "sebastian/diff",
+      "versionInfo": "4.0.6",
+      "downloadLocation": "https://packagist.org/packages/sebastian/diff#4.0.6",
+      "homepage": "https://packagist.org/packages/sebastian/diff#4.0.6",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/diff@4.0.6"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-ENVIRONMENT-5.1.5",
+      "name": "sebastian/environment",
+      "versionInfo": "5.1.5",
+      "downloadLocation": "https://packagist.org/packages/sebastian/environment#5.1.5",
+      "homepage": "https://packagist.org/packages/sebastian/environment#5.1.5",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/environment@5.1.5"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-EXPORTER-4.0.6",
+      "name": "sebastian/exporter",
+      "versionInfo": "4.0.6",
+      "downloadLocation": "https://packagist.org/packages/sebastian/exporter#4.0.6",
+      "homepage": "https://packagist.org/packages/sebastian/exporter#4.0.6",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/exporter@4.0.6"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-GLOBAL-STATE-5.0.7",
+      "name": "sebastian/global-state",
+      "versionInfo": "5.0.7",
+      "downloadLocation": "https://packagist.org/packages/sebastian/global-state#5.0.7",
+      "homepage": "https://packagist.org/packages/sebastian/global-state#5.0.7",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/global-state@5.0.7"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-LINES-OF-CODE-1.0.4",
+      "name": "sebastian/lines-of-code",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "https://packagist.org/packages/sebastian/lines-of-code#1.0.4",
+      "homepage": "https://packagist.org/packages/sebastian/lines-of-code#1.0.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/lines-of-code@1.0.4"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-OBJECT-ENUMERATOR-4.0.4",
+      "name": "sebastian/object-enumerator",
+      "versionInfo": "4.0.4",
+      "downloadLocation": "https://packagist.org/packages/sebastian/object-enumerator#4.0.4",
+      "homepage": "https://packagist.org/packages/sebastian/object-enumerator#4.0.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/object-enumerator@4.0.4"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-OBJECT-REFLECTOR-2.0.4",
+      "name": "sebastian/object-reflector",
+      "versionInfo": "2.0.4",
+      "downloadLocation": "https://packagist.org/packages/sebastian/object-reflector#2.0.4",
+      "homepage": "https://packagist.org/packages/sebastian/object-reflector#2.0.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/object-reflector@2.0.4"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-RECURSION-CONTEXT-4.0.5",
+      "name": "sebastian/recursion-context",
+      "versionInfo": "4.0.5",
+      "downloadLocation": "https://packagist.org/packages/sebastian/recursion-context#4.0.5",
+      "homepage": "https://packagist.org/packages/sebastian/recursion-context#4.0.5",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/recursion-context@4.0.5"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-RESOURCE-OPERATIONS-3.0.4",
+      "name": "sebastian/resource-operations",
+      "versionInfo": "3.0.4",
+      "downloadLocation": "https://packagist.org/packages/sebastian/resource-operations#3.0.4",
+      "homepage": "https://packagist.org/packages/sebastian/resource-operations#3.0.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/resource-operations@3.0.4"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-TYPE-3.2.1",
+      "name": "sebastian/type",
+      "versionInfo": "3.2.1",
+      "downloadLocation": "https://packagist.org/packages/sebastian/type#3.2.1",
+      "homepage": "https://packagist.org/packages/sebastian/type#3.2.1",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/type@3.2.1"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SEBASTIAN-VERSION-3.0.2",
+      "name": "sebastian/version",
+      "versionInfo": "3.0.2",
+      "downloadLocation": "https://packagist.org/packages/sebastian/version#3.0.2",
+      "homepage": "https://packagist.org/packages/sebastian/version#3.0.2",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/sebastian/version@3.0.2"
+        }
+      ],
+      "supplier": "Person: Sebastian Bergmann (sebastian@phpunit.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SYMFONY-DEPRECATION-CONTRACTS-3.5.0",
+      "name": "symfony/deprecation-contracts",
+      "versionInfo": "3.5.0",
+      "downloadLocation": "https://packagist.org/packages/symfony/deprecation-contracts#3.5.0",
+      "homepage": "https://packagist.org/packages/symfony/deprecation-contracts#3.5.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/symfony/deprecation-contracts@3.5.0"
+        }
+      ],
+      "supplier": "Person: Nicolas Grekas (p@tchwork.com)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SYMFONY-POLYFILL-CTYPE-1.30.0",
+      "name": "symfony/polyfill-ctype",
+      "versionInfo": "1.30.0",
+      "downloadLocation": "https://packagist.org/packages/symfony/polyfill-ctype#1.30.0",
+      "homepage": "https://packagist.org/packages/symfony/polyfill-ctype#1.30.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/symfony/polyfill-ctype@1.30.0"
+        }
+      ],
+      "supplier": "Person: Gert de Pagter (BackEndTea@gmail.com)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-SYMFONY-YAML-5.4.44",
+      "name": "symfony/yaml",
+      "versionInfo": "5.4.44",
+      "downloadLocation": "https://packagist.org/packages/symfony/yaml#5.4.44",
+      "homepage": "https://packagist.org/packages/symfony/yaml#5.4.44",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/symfony/yaml@5.4.44"
+        }
+      ],
+      "supplier": "Person: Fabien Potencier (fabien@symfony.com)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-PHP-THESEER-TOKENIZER-1.2.0",
+      "name": "theseer/tokenizer",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "https://packagist.org/packages/theseer/tokenizer#1.2.0",
+      "homepage": "https://packagist.org/packages/theseer/tokenizer#1.2.0",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:composer/theseer/tokenizer@1.2.0"
+        }
+      ],
+      "supplier": "Person: Arne Blankerts (arne@blankerts.de)",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-PHP-PHAR-IO-MANIFEST-2.0.4",
+      "relatedSpdxElement": "SPDXRef-PHP-PHAR-IO-VERSION-3.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-NIKIC-PHP-PARSER-5.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-FILE-ITERATOR-3.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-TEXT-TEMPLATE-2.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-CODE-UNIT-REVERSE-LOOKUP-2.0.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-COMPLEXITY-2.0.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-ENVIRONMENT-5.1.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-LINES-OF-CODE-1.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-VERSION-3.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relatedSpdxElement": "SPDXRef-PHP-THESEER-TOKENIZER-1.2.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-DOCTRINE-INSTANTIATOR-2.0.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-MYCLABS-DEEP-COPY-1.12.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHAR-IO-MANIFEST-2.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHAR-IO-VERSION-3.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-CODE-COVERAGE-9.2.32",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-FILE-ITERATOR-3.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-INVOKER-3.1.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-TEXT-TEMPLATE-2.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-PHPUNIT-PHP-TIMER-5.0.3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-CLI-PARSER-1.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-CODE-UNIT-1.0.8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-COMPARATOR-4.0.8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-DIFF-4.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-ENVIRONMENT-5.1.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-EXPORTER-4.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-GLOBAL-STATE-5.0.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-OBJECT-ENUMERATOR-4.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-RESOURCE-OPERATIONS-3.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-TYPE-3.2.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-PHPUNIT-PHPUNIT-9.6.21",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-VERSION-3.0.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-COMPARATOR-4.0.8",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-DIFF-4.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-COMPARATOR-4.0.8",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-EXPORTER-4.0.6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-COMPLEXITY-2.0.3",
+      "relatedSpdxElement": "SPDXRef-PHP-NIKIC-PHP-PARSER-5.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-EXPORTER-4.0.6",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-RECURSION-CONTEXT-4.0.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-GLOBAL-STATE-5.0.7",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-OBJECT-REFLECTOR-2.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-GLOBAL-STATE-5.0.7",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-RECURSION-CONTEXT-4.0.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-LINES-OF-CODE-1.0.4",
+      "relatedSpdxElement": "SPDXRef-PHP-NIKIC-PHP-PARSER-5.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-OBJECT-ENUMERATOR-4.0.4",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-OBJECT-REFLECTOR-2.0.4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SEBASTIAN-OBJECT-ENUMERATOR-4.0.4",
+      "relatedSpdxElement": "SPDXRef-PHP-SEBASTIAN-RECURSION-CONTEXT-4.0.5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SYMFONY-YAML-5.4.44",
+      "relatedSpdxElement": "SPDXRef-PHP-SYMFONY-DEPRECATION-CONTRACTS-3.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-PHP-SYMFONY-YAML-5.4.44",
+      "relatedSpdxElement": "SPDXRef-PHP-SYMFONY-POLYFILL-CTYPE-1.30.0",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
