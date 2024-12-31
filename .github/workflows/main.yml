@@ -10,10 +10,11 @@ jobs:
           node-version: 20
       - uses: actions/checkout@master
       - name: Run SOOS SBOM Scan
-        uses: soos-io/soos-sbom-github-action@v1
+        uses: soos-io/soos-sbom-github-action@5857224a456e9233d24f055790e16c7caed8395e #v1
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
+          api_url: 'https://qa-api.soos.io/api/'
           project_name: "sbom-githubActions-test"
-          sbom_path: "./"
           sbom_version: latest
+          log_level: DEBUG
