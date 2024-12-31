@@ -15,6 +15,7 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           api_url: 'https://qa-api.soos.io/api/'
-          project_name: "sbom-githubActions-test"
+          project_name: "sbom-githubActions-with-SBOM-Path"
+          sbom_path: SPDX
           sbom_version: latest
           log_level: DEBUG
