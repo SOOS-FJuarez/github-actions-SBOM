@@ -18,4 +18,4 @@ jobs:
           project_name: "sbom-githubActions-with-SBOM-Path"
           #sbom_path: SPDX
           sbom_version: latest 
-          log_level: DEBUG
+          log_level: DEBUG 
