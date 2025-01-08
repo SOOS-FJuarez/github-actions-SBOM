@@ -17,5 +17,5 @@ jobs:
           #api_url: 'https://qa-api.soos.io/api/'
           project_name: "sbom-githubActions-with-SBOM-Path"
           #sbom_path: SPDX
-          sbom_version: latest
+          sbom_version: latest 
           log_level: DEBUG
