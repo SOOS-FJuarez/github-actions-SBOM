@@ -19,3 +19,4 @@ jobs:
           sbom_path: SPDX
           sbom_version: latest 
           log_level: DEBUG
+          invented: asd
