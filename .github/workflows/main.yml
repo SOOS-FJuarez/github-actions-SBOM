@@ -10,14 +10,20 @@ jobs:
           node-version: 20
       - uses: actions/checkout@master
       - name: Run SOOS SBOM Scan
-        uses: soos-io/soos-sbom-github-action@v1
+        uses: soos-io/soos-sbom-github-action@c6b97cf661bd1efd132ee866c1f040141c9d09ff
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           #api_url: 'https://qa-api.soos.io/api/'
           project_name: "sbom-githubActions-with-SBOM-Path"
           sbom_path: SPDX
-          sbom_version: latest 
+          sbom_version: 1.0.11-pre.1 
           log_level: DEBUG
-          working_directory: asd
-          source_code_path: asd
+          export_format: SARIF
+          export_file_type: JSON
+        
+      # Cargar el directorio generado como artefacto
+      - uses: actions/upload-artifact@v4
+        with:
+           name: sast-analysis-output
+           path: /home/runner/work/github-actions-SBOMgithub-actions-SBOM
