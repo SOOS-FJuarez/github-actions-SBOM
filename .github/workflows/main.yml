@@ -2,43 +2,57 @@ name: SOOS SBOM GitHub Actions 02
 on: [push]
 jobs:
   soos_sbom_scan:
-    name: SOOS SBOM Scan
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - uses: actions/checkout@master
-      - name: Run SOOS SBOM Scan
-        uses: soos-io/soos-sbom-github-action@b39b0d6af2d627f691f347f771854b14dc9d366c
-        with:
-          client_id: ${{ secrets.SOOS_CLIENT_ID }}
-          api_key: ${{ secrets.SOOS_API_KEY }}
-          api_url: 'https://qa-api.soos.io/api/'
-          project_name: "sbom-githubActions-with-SBOM-Path"
-          #sbom_path: SPDX
-          sbom_version: 1.0.11-pre.2 
-          log_level: DEBUG
-          export_format: spdx
-          export_file_type: text
-          output_directory: output
+      permissions:
+        security-events: write # for uploading code scanning alert info
+        actions: read # only required for a private repository by github/codeql-action/upload-sarif to get the Action run status
+      name: SOOS SBOM Scan
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/setup-node@v4
+          with:
+            node-version: 20
+        - uses: actions/checkout@master
+        - name: Run SOOS SBOM Scan
+          uses: soos-io/soos-sbom-github-action@b39b0d6af2d627f691f347f771854b14dc9d366c
+          with:
+            client_id: ${{ secrets.SOOS_CLIENT_ID }}
+            api_key: ${{ secrets.SOOS_API_KEY }}
+            api_url: 'https://qa-api.soos.io/api/'
+            project_name: "sbom-githubActions-with-SBOM-Path"
+            sbom_path: SPDX
+            sbom_version: 1.0.11-pre.2 
+            #log_level: DEBUG
+            export_format: SARIF
+            export_file_type: JSON
+            output_directory: output
         
-      # Cargar el directorio generado como artefacto
-      - uses: actions/upload-artifact@v4
-        with:
-          name: sbom-analysis-output
-          path: |
-              ${{ github.workspace }}/output/*.cdx.json
-              ${{ github.workspace }}/output/*.cdx.xml
-              ${{ github.workspace }}/output/*.spdx.json
-              ${{ github.workspace }}/output/*.spdx.txt
-              ${{ github.workspace }}/output/*.sarif.json
-              ${{ github.workspace }}/output/*.csafvex.json
-              ${{ github.workspace }}/output/*.sooslicenses.hmtl
-              ${{ github.workspace }}/output/*.sooslicenses.csv
-              ${{ github.workspace }}/output/*.soospackages.hmtl
-              ${{ github.workspace }}/output/*.soospackages.csv
-              ${{ github.workspace }}/output/*.soosvulnerabilities.hmtl
-              ${{ github.workspace }}/output/*.soosvulnerabilities.csv
-              ${{ github.workspace }}/output/*.soosissues.hmtl
-              ${{ github.workspace }}/output/*.soosissues.csv
+        # Cargar el directorio generado como artefacto
+        - uses: actions/upload-artifact@v4
+          with:
+            name: sbom-analysis-output
+            path: |
+                ${{ github.workspace }}/output/*.cdx.json
+                ${{ github.workspace }}/output/*.cdx.xml
+                ${{ github.workspace }}/output/*.spdx.json
+                ${{ github.workspace }}/output/*.spdx.txt
+                ${{ github.workspace }}/output/*.sarif.json
+                ${{ github.workspace }}/output/*.csafvex.json
+                ${{ github.workspace }}/output/*.sooslicenses.hmtl
+                ${{ github.workspace }}/output/*.sooslicenses.csv
+                ${{ github.workspace }}/output/*.soospackages.hmtl
+                ${{ github.workspace }}/output/*.soospackages.csv
+                ${{ github.workspace }}/output/*.soosvulnerabilities.hmtl
+                ${{ github.workspace }}/output/*.soosvulnerabilities.csv
+                ${{ github.workspace }}/output/*.soosissues.hmtl
+                ${{ github.workspace }}/output/*.soosissues.csv
+
+        - name: Get SARIF file
+          id: get-sarif
+          run: |
+            FILE=$(ls ${{ github.workspace }}/output/*.sarif.json | head -n 1)
+            echo "sarif_file=$FILE" >> $GITHUB_ENV
+
+        - name: Upload SOOS SARIF Report
+          uses: github/codeql-action/upload-sarif@v3
+          with:
+              sarif_file: ${{ env.sarif_file }}
