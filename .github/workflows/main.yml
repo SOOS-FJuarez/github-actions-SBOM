@@ -18,12 +18,15 @@ jobs:
             client_id: ${{ secrets.SOOS_CLIENT_ID }}
             api_key: ${{ secrets.SOOS_API_KEY }}
             api_url: 'https://qa-api.soos.io/api/'
-            project_name: "sbom-githubActions-12"
+            project_name: "sbom-githubActions-test"
             sbom_path: "./"
             sbom_version: 1.0.11-pre.2 
-            #log_level: DEBUG
-            files_to_exclude: "**/Flutter/flutter_Downloader_v1.11.0.dart.cdx.json"
-            directories_to_exclude: "SPDX/**"
+            log_level: DEBUG
+            #files_to_exclude: "**/Flutter/flutter_Downloader_v1.11.0.dart.cdx.json"
+            #directories_to_exclude: "SPDX/**"
+            export_format: sarif
+            export_file_type: json
+            output_directory: output
         
         # Cargar el directorio generado como artefacto
         - uses: actions/upload-artifact@v4
