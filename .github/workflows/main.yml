@@ -13,18 +13,18 @@ jobs:
             node-version: 20
         - uses: actions/checkout@master
         - name: Run SOOS SBOM Scan
-          uses: soos-io/soos-sbom-github-action@b39b0d6af2d627f691f347f771854b14dc9d366c
+          uses: soos-io/soos-sbom-github-action@v1
           with:
             client_id: ${{ secrets.SOOS_CLIENT_ID }}
             api_key: ${{ secrets.SOOS_API_KEY }}
-            api_url: 'https://qa-api.soos.io/api/'
+            api_url: 'https://api.soos.io/api/'
             project_name: "sbom-githubActions-test"
-            sbom_path: "./"
-            sbom_version: 1.0.11-pre.2 
+            sbom_path: "SPDX/camaleon_cms_v2.8.0.ruby.spdx.json"
+            sbom_version: latest
             log_level: DEBUG
             #files_to_exclude: "**/Flutter/flutter_Downloader_v1.11.0.dart.cdx.json"
             #directories_to_exclude: "SPDX/**"
-            export_format: sarif
+            export_format: spdx
             export_file_type: json
             output_directory: output
         
