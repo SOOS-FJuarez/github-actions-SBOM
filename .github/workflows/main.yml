@@ -17,17 +17,15 @@ jobs:
           with:
             client_id: ${{ secrets.SOOS_CLIENT_ID }}
             api_key: ${{ secrets.SOOS_API_KEY }}
-            api_url: 'https://api.soos.io/api/'
-            project_name: "sbom-githubActions-13"
+            api_url: 'https://qa-api.soos.io/api/'
+            project_name: "SBOM-githubActions"
             sbom_path: "./"
-            sbom_version: latest
+            sbom_version: 4.0.14-pre.1
             log_level: DEBUG
-            files_to_exclude: "CDX/alpine-baselayout.cdx.json, **/invalid.cdx.json, **/**/flutter_Downloader_v1.11.0.dart.cdx.json"
-            directories_to_exclude: "Multiple-SBOMS/**, spdx/**, invalid/**"
             export_format: spdx
             export_file_type: json
             output_directory: output
-            output_format: SARIF
+    
         
         # Cargar el directorio generado como artefacto
         - uses: actions/upload-artifact@v4
