@@ -20,11 +20,11 @@ jobs:
             api_url: 'https://qa-api.soos.io/api/'
             project_name: "SBOM-githubActions"
             sbom_path: "./"
-            sbom_version: 1.0.12-pre.1
+            sbom_version: latest
             log_level: DEBUG
-            export_format: spdx
-            export_file_type: json
-            output_directory: output
+            #export_format: spdx
+            #export_file_type: json
+            #output_directory: output
     
         
         # Cargar el directorio generado como artefacto
