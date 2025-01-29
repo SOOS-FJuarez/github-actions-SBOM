@@ -15,7 +15,7 @@ jobs:
         - name: Run SOOS SBOM Scan
           uses: soos-io/soos-sbom-github-action@v1
           with:
-            client_id: ${{ secrets.SOOS_CLIENT_ID }}
+            client_id: ${{ secrets.SOOS_CLIENT_ID }} 
             api_key: ${{ secrets.SOOS_API_KEY }}
             api_url: 'https://api.soos.io/api/'
             project_name: "SBOM-githubActions"
