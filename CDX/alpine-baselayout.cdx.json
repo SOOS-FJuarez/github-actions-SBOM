@@ -19,7 +19,7 @@
     "component": {
       "bom-ref": "c043943b41b2e089",
       "type": "container",
-      "name": "alpine",
+      "name": "alpine-root",
       "version": "sha256:6457d53fb065d6f250e1504b9bc42d5b6c65941d57532c072d929dd0628977d0"
     }
   },
