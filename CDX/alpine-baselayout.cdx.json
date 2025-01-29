@@ -2,7 +2,7 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:bb8fbc93-2ceb-44f7-875a-3e630b09200e-123",
+  "serialNumber": "urn:uuid:bb8fbc93-2ceb-44f7-875a-3e630b09200e",
   "version": 1,
   "metadata": {
     "timestamp": "2024-03-26T15:02:06Z",
@@ -19,7 +19,7 @@
     "component": {
       "bom-ref": "c043943b41b2e089",
       "type": "container",
-      "name": "alpine-root",
+      "name": "alpine",
       "version": "sha256:6457d53fb065d6f250e1504b9bc42d5b6c65941d57532c072d929dd0628977d0"
     }
   },
