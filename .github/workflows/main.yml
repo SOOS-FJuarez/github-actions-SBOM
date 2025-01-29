@@ -22,9 +22,9 @@ jobs:
             sbom_path: "./"
             sbom_version: latest
             log_level: DEBUG
-            #export_format: spdx
-            #export_file_type: json
-            #output_directory: output
+            export_format: sarif
+            export_file_type: json
+            output_directory: output
     
         
         # Cargar el directorio generado como artefacto
