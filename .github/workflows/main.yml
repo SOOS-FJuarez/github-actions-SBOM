@@ -20,7 +20,7 @@ jobs:
             api_url: 'https://qa-api.soos.io/api/'
             project_name: "SBOM-githubActions"
             sbom_path: "./"
-            sbom_version: latest
+            sbom_version: 1.0.13-pre.2
             log_level: DEBUG
             export_format: sarif
             export_file_type: json
